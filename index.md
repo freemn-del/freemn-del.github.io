@@ -53,7 +53,7 @@ It is a type of black-box testing method which means that tests are performed fr
 
 # CVSS Rating
 
-![[cvss](assets/20240902151252.png)
+![cvss](assets/20240903190045.png)
 
 # FOOTPRINTING AND RECONNAISSANCE {02}
 
