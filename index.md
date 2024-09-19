@@ -93,7 +93,7 @@ It is a type of black-box testing method which means that tests are performed fr
 # ENUMERATION {03}
 
 ##### Diff btw Scanning and Enumeration
-##### ***Scanning provides a broad overview of active systems, open ports, and services, while enumeration digs deeper into those services to extract detailed, actionable information.
+##### Scanning provides a broad overview of active systems, open ports, and services, while enumeration digs deeper into those services to extract detailed, actionable information.
 
 ### Net View Commands
 #### Displays all the shares in the domain:
