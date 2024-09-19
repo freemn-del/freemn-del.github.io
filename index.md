@@ -1,5 +1,5 @@
 <head>
-  <link rel="icon" href="assets/android-chrome-512x512.png" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.png" type="image/x-icon">
 </head>
 
 # INTRODUCTION TO ETHICAL HACKING {01}
