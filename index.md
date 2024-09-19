@@ -1129,7 +1129,7 @@ btlejack -f Ox9c68fd30 -t -m Ox1fffffffff
 
 - Asymmetric encryption (public-key) uses different encryption keys, which are called public and private keys for encryption and decryption.
 
-![[Pasted image 20240916124402.png]]
+![ae](assets/20240916124402.png)
 
 ### **Digital Signature:**
 
