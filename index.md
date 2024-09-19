@@ -49,11 +49,11 @@ It is a type of black-box testing method which means that tests are performed fr
 
 ## Cyber Kill Chain Methodology
 
-![[Pasted image 20240902151252.png]]
+![[assets/Pasted image 20240902151252.png]]
 
 # CVSS Rating
 
-![[Pasted image 20240903190045.png]]
+![[assets/Pasted image 20240903190045.png]]
 
 # FOOTPRINTING AND RECONNAISSANCE {02}
 
