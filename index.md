@@ -296,7 +296,7 @@ A program that conceals its code and intended purpose via various techniques, an
 
 ## Advanced Persistent Threat Lifecycle
 
-![ob](20240917144922.png)
+![ob](assets/20240917144922.png)
 ## Malware
 
 ### Trojans
@@ -407,7 +407,7 @@ A program that conceals its code and intended purpose via various techniques, an
 
 ## Phases of a Social Engineering Attack
 
-![p](20240917121217.png)
+![p](assets/20240917121217.png)
 
 ## Types of Social Engineering
 
@@ -623,7 +623,7 @@ A program that conceals its code and intended purpose via various techniques, an
 - It is a continuous monitoring system that often sits behind the firewalls as an additional layer of protection 
 - Unlike an IDS, which is passive, an IPS is placed inline in the network, between the source and destination to actively analyze the network traffic and to automatically take decisions on the traffic that is entering the network
 
-![ips](20240916195631.png)
+![ips](assets/20240916195631.png)
 
 ### Session splicing
 
@@ -764,7 +764,7 @@ It is performed by placing characters such as ` " ' or '1'='1' " `on any basic i
 
 ## Wireless Standards
 
-![[Pasted image 20240916100622.png]]
+![ws](assets/20240916100622.png)
 
 ## Types of Antennas
 
@@ -829,7 +829,7 @@ It is performed by placing characters such as ` " ' or '1'='1' " `on any basic i
 - **WPA2-Personal** and **WPA3-Personal** use a single password for authentication.
 - **WPA2-Enterprise** and **WPA3-Enterprise** use a server and support multiple authentication methods for better security.
 
-![wps](20240916111915.png)
+![wps](assets/20240916111915.png)
 
 ## Attacks
 ### Key Reinstallation Attack (KRACK)
@@ -1123,7 +1123,7 @@ btlejack -f Ox9c68fd30 -t -m Ox1fffffffff
 
 - Symmetric encryption (secret-key, shared-key, and private-key) uses the same key for encryption as it does for decryption.
 
-![[Pasted image 20240916124342.png]]
+![se](assets/20240916124342.png)
 
 ### Asymmetric Encryption
 
