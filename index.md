@@ -1,3 +1,7 @@
+<head>
+  <link rel="icon" href="assets/010.ico" type="image/x-icon">
+</head>
+
 # INTRODUCTION TO ETHICAL HACKING {01}
 ## The information security law or standard
 
