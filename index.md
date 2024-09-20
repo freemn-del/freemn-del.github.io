@@ -1341,24 +1341,39 @@ These attacks do not require technical knowledge or tools. They are often referr
 ___
 ## Common Tools
 
-**CHNTPW**: This tool is specifically designed for resetting or clearing Windows passwords and enabling disabled accounts. It operates by modifying the Windows password database directly. When you boot from a Linux Live CD and use CHNTPW, you can reset or change passwords and enable accounts on the Windows system.
+### CHNTPW
+- This tool is specifically designed for resetting or clearing Windows passwords and enabling disabled accounts. It operates by modifying the Windows password database directly. When you boot from a Linux Live CD and use CHNTPW, you can reset or change passwords and enable accounts on the Windows system.
 
-**Cain & Abel**: This is a Windows-based tool for password recovery and cracking, not a Linux tool. It cannot be used directly from an Ubuntu Live CD.
+### Cain & Abel
+- This is a Windows-based tool for password recovery and cracking, not a Linux tool. It cannot be used directly from an Ubuntu Live CD.
 
-**Cewl**: This command-line tool creates custom wordlists by scraping web pages for relevant words or phrases. It helps gather information from websites, which can be used for password cracking or other security testing activities.
+### Cewl
+- This command-line tool creates custom wordlists by scraping web pages for relevant words or phrases. It helps gather information from websites, which can be used for password cracking or other security testing activities.
 
-**Nslookup on Windows**: This network utility queries the DNS to obtain domain name or IP address mappings, and other DNS records. It helps troubleshoot DNS issues by providing information about the domain name or IP address.
+### Nslookup on Windows
+- This network utility queries the DNS to obtain domain name or IP address mappings, and other DNS records. It helps troubleshoot DNS issues by providing information about the domain name or IP address.
 
-**Dig (Domain Information Groper)**: This command-line tool queries DNS servers to retrieve detailed information about DNS records. It is used for DNS diagnostics and provides information about various DNS records like A, MX, and TXT.
+### Tcpdump
+- This command-line packet analyzer captures and displays network packets in real-time. It is used for network monitoring and troubleshooting by analyzing packet headers and contents.
 
-**Netstat**: This command-line tool displays network connections, routing tables, interface statistics, and more. It is used for monitoring network traffic, troubleshooting network issues, and identifying open ports on a system.
+### Tcptrace 
+- This command-line tool analyzes TCP connections from network capture files, providing detailed statistics. It helps in diagnosing network performance issues and analyzing traffic behavior.
 
-**Net View**: This command-line tool displays a list of shared resources (such as folders and printers) on a network. It is used to discover devices and shared resources within a local network.
+### TCPView 
+- This command-line tool provides a real-time view of all TCP and UDP endpoints on a Windows system. It displays detailed information about each connection, including the local and remote IP addresses, ports, connection status (such as listening, established, or closed), and the associated process. TCPView is used for monitoring network activity, troubleshooting connectivity issues, and identifying which applications or services are using network resources.
 
-**TCPView**: This command-line tool provides a real-time view of all TCP and UDP endpoints on a Windows system. It displays detailed information about each connection, including the local and remote IP addresses, ports, connection status (such as listening, established, or closed), and the associated process. TCPView is used for monitoring network activity, troubleshooting connectivity issues, and identifying which applications or services are using network resources.
+### Netstat
+- This command-line tool displays network connections, routing tables, interface statistics, and more. It is used for monitoring network traffic, troubleshooting network issues, and identifying open ports on a system.
+### Dig (Domain Information Groper)
+- This command-line tool queries DNS servers to retrieve detailed information about DNS records. It is used for DNS diagnostics and provides information about various DNS records like A, MX, and TXT.
 
-**Tcpdump**: This command-line packet analyzer captures and displays network packets in real-time. It is used for network monitoring and troubleshooting by analyzing packet headers and contents.
-
-**Tcptrace**: This command-line tool analyzes TCP connections from network capture files, providing detailed statistics. It helps in diagnosing network performance issues and analyzing traffic behavior.
-
-**IPerf**: This network testing tool measures the bandwidth and performance of network connections. It is used to test TCP and UDP bandwidth between hosts and helps identify network bottlenecks.
+### Net View
+- This command-line tool displays a list of shared resources (such as folders and printers) on a network. It is used to discover devices and shared resources within a local network.
+##### Net View Commands
+#### Displays all the shares in the domain:
+`net view / domain`
+##### Displays all the shares on the specified domain:
+`net view /domain:<domain name>`
+ 
+### IPerf
+- This network testing tool measures the bandwidth and performance of network connections. It is used to test TCP and UDP bandwidth between hosts and helps identify network bottlenecks.
