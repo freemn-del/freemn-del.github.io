@@ -53,11 +53,11 @@ It is a type of black-box testing method which means that tests are performed fr
 
 ## Cyber Kill Chain Methodology
 
-!(assets/20240902151252.png)
+[1](assets/20240902151252.png)
 
 # CVSS Rating
 
-!(assets/20240903190045.png)
+![2](assets/20240903190045.png)
 
 # FOOTPRINTING AND RECONNAISSANCE {02}
 
@@ -303,7 +303,7 @@ A program that conceals its code and intended purpose via various techniques, an
 
 ## Advanced Persistent Threat Lifecycle
 
-!(assets/20240916100622.png)
+![3](assets/20240916100622.png)
 ## Malware
 
 ### Trojans
@@ -414,7 +414,7 @@ A program that conceals its code and intended purpose via various techniques, an
 
 ## Phases of a Social Engineering Attack
 
-!(assets/20240917121217.png)
+![4](assets/20240917121217.png)
 
 ## Types of Social Engineering
 
@@ -630,7 +630,7 @@ A program that conceals its code and intended purpose via various techniques, an
 - It is a continuous monitoring system that often sits behind the firewalls as an additional layer of protection 
 - Unlike an IDS, which is passive, an IPS is placed inline in the network, between the source and destination to actively analyze the network traffic and to automatically take decisions on the traffic that is entering the network
 
-!(assets/20240916195631.png)
+![5](assets/20240916195631.png)
 
 ### Session splicing
 
@@ -771,7 +771,7 @@ It is performed by placing characters such as ` " ' or '1'='1' " `on any basic i
 
 ## Wireless Standards
 
-!(assets/20240916100622.png)
+![6](assets/20240916100622.png)
 
 ## Types of Antennas
 
@@ -836,7 +836,7 @@ It is performed by placing characters such as ` " ' or '1'='1' " `on any basic i
 - **WPA2-Personal** and **WPA3-Personal** use a single password for authentication.
 - **WPA2-Enterprise** and **WPA3-Enterprise** use a server and support multiple authentication methods for better security.
 
-!(assets/20240916111915.png)
+![7](assets/20240916111915.png)
 
 ## Attacks
 ### Key Reinstallation Attack (KRACK)
@@ -1129,13 +1129,13 @@ btlejack -f Ox9c68fd30 -t -m Ox1fffffffff
 
 - Symmetric encryption (secret-key, shared-key, and private-key) uses the same key for encryption as it does for decryption.
 
-!(assets/20240916124342.png)
+![8](assets/20240916124342.png)
 
 ### Asymmetric Encryption
 
 - Asymmetric encryption (public-key) uses different encryption keys, which are called public and private keys for encryption and decryption.
 
-!(assets/20240916124402.png)
+![9](assets/20240916124402.png)
 
 ### **Digital Signature:**
 
