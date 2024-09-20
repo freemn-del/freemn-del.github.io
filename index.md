@@ -53,7 +53,7 @@ It is a type of black-box testing method which means that tests are performed fr
 
 ## Cyber Kill Chain Methodology
 
-[1](assets/20240902151252.png)
+![1](assets/20240902151252.png)
 
 # CVSS Rating
 
