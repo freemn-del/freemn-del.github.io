@@ -1,4 +1,4 @@
-[questions and answers](Q&A.md)
+[Questions &  Answers](Q&A.md)
 
 <head>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
