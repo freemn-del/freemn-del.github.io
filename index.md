@@ -1,5 +1,5 @@
 <head>
-  <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
 </head>
 
 # INTRODUCTION TO ETHICAL HACKING {01}
