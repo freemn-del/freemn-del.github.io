@@ -1,8 +1,8 @@
+# INTRODUCTION TO ETHICAL HACKING {01}
 <head>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
 
-# INTRODUCTION TO ETHICAL HACKING {01}
 ## The information security law or standard
 
 - **Sarbanes-Oxley Act (SOX)**: This U.S. federal law was enacted in response to corporate accounting scandals (e.g., Enron, WorldCom) to improve the accuracy and reliability of financial reporting. It establishes requirements for financial disclosures, internal controls, and auditing practices to prevent accounting errors and fraudulent activities, thus protecting stakeholders and the public.
@@ -53,11 +53,11 @@ It is a type of black-box testing method which means that tests are performed fr
 
 ## Cyber Kill Chain Methodology
 
-![ckcm](assets/20240902151252.png)
+![[Pasted image 20240902151252.png]]
 
 # CVSS Rating
 
-![cvss](assets/20240903190045.png)
+![[Pasted image 20240903190045.png]]
 
 # FOOTPRINTING AND RECONNAISSANCE {02}
 
@@ -153,6 +153,9 @@ It is a type of black-box testing method which means that tests are performed fr
  **`-O`**: **OS Detection**
    - Attempts to determine the operating system of the target by analyzing TCP/IP stack behavior and responses.
 
+ `-sI`: **Idle Scanning**
+- A stealthy scan method that uses a third-party system (called a "zombie") to scan a target. This method hides your IP address, making it hard for the target to trace the scan back to you.
+
  **`-p`**: **Port Specification**
    - Used to specify which ports to scan. Example: `-p 80,443` scans ports 80 and 443. `-p-` scans all 65,535 ports.
 
@@ -165,11 +168,11 @@ It is a type of black-box testing method which means that tests are performed fr
  **`-v`**: **Verbose Mode**
 - Increases the amount of output detail. Example: `-v` for basic verbosity, `-vv` for more detailed information.
 
- **`-oN`**: **Output to Normal File**
-   - Saves the scan results in a normal text file format. Example: `-oN output.txt`.
-
  **`-oX`**: **Output to XML File**
    - Saves the scan results in an XML file format. Example: `-oX output.xml`.
+
+ **`-oN`**: **Output to Normal File**
+   - Saves the scan results in a normal text file format. Example: `-oN output.txt`.
 
  **`-oG`**: **Output to Grepable File**
    - Saves the scan results in a grepable format. Example: `-oG output.gnmap`.
@@ -232,9 +235,6 @@ It is a type of black-box testing method which means that tests are performed fr
 `Hping3 www.certifiedhacker.com —a 7 . 7 . 7 . 7`
 ### Conduct a subnet-wide scan with Hping3
 `hping3 -1 10.0.1.x --rand-dest -I eth0`
-### Hping
-  -1  --icmp       ICMP mode
-  -2  --udp        UDP mode
 
 # VULNERABILITY ANALYSIS {05}
 
@@ -303,7 +303,7 @@ A program that conceals its code and intended purpose via various techniques, an
 
 ## Advanced Persistent Threat Lifecycle
 
-![ob](assets/20240917144922.png)
+![[Pasted image 20240917144922.png]]
 ## Malware
 
 ### Trojans
@@ -414,7 +414,7 @@ A program that conceals its code and intended purpose via various techniques, an
 
 ## Phases of a Social Engineering Attack
 
-![p](assets/20240917121217.png)
+![[Pasted image 20240917121217.png]]
 
 ## Types of Social Engineering
 
@@ -630,7 +630,7 @@ A program that conceals its code and intended purpose via various techniques, an
 - It is a continuous monitoring system that often sits behind the firewalls as an additional layer of protection 
 - Unlike an IDS, which is passive, an IPS is placed inline in the network, between the source and destination to actively analyze the network traffic and to automatically take decisions on the traffic that is entering the network
 
-![ips](assets/20240916195631.png)
+![[Pasted image 20240916195631.png]]
 
 ### Session splicing
 
@@ -761,7 +761,7 @@ e.g.-
 
 ### Evasion Technique: Variation
 
-It is performed by placing characters such as ` " ' or '1'='1' " `on any basic injection statement such as `"or 1=1"` or with other accepted SQL comments
+It is performed by placing characters such as ` " ' or '1'='1' " `on any basic injection statement such as `"or 1=1"` or with other accepted SQL comments.
 
 # HACKING WIRELESS NETWORKS {16}
 
@@ -771,7 +771,7 @@ It is performed by placing characters such as ` " ' or '1'='1' " `on any basic i
 
 ## Wireless Standards
 
-![ws](assets/20240916100622.png)
+![[Pasted image 20240916100622.png]]
 
 ## Types of Antennas
 
@@ -836,7 +836,7 @@ It is performed by placing characters such as ` " ' or '1'='1' " `on any basic i
 - **WPA2-Personal** and **WPA3-Personal** use a single password for authentication.
 - **WPA2-Enterprise** and **WPA3-Enterprise** use a server and support multiple authentication methods for better security.
 
-![wps](assets/20240916111915.png)
+![[Pasted image 20240916111915.png]]
 
 ## Attacks
 ### Key Reinstallation Attack (KRACK)
@@ -1129,13 +1129,13 @@ btlejack -f Ox9c68fd30 -t -m Ox1fffffffff
 
 - Symmetric encryption (secret-key, shared-key, and private-key) uses the same key for encryption as it does for decryption.
 
-![se](assets/20240916124342.png)
+![[Pasted image 20240916124342.png]]
 
 ### Asymmetric Encryption
 
 - Asymmetric encryption (public-key) uses different encryption keys, which are called public and private keys for encryption and decryption.
 
-![ae](assets/20240916124402.png)
+![[Pasted image 20240916124402.png]]
 
 ### **Digital Signature:**
 
