@@ -120,6 +120,19 @@ It is a type of black-box testing method which means that tests are performed fr
 `RCPT TO` - Defines the recipients of a message
 
 # SCANNING NETWORKS {04}
+## Agent-Based Scanners & Network-Based Scanners
+### Agent-Based Scanners
+- Agents are installed on each device that needs to be scanned.
+- Data Collection: Agents collect detailed information directly from the device and report back to a central server.
+- Accuracy: High accuracy as they have direct access to the system's internals.
+- Network Impact: Minimal impact on network bandwidth since data is collected locally.
+- Remote Devices: Effective for devices that are often off-network, like laptops used by remote workers.
+### Network-Based Scanners
+- Scanners are deployed on a network appliance or a virtual machine within the network.
+- Data Collection: Scans the network to identify vulnerabilities on connected devices.
+- Accuracy: Can be less accurate compared to agent-based scans, especially if not using authenticated scans.
+- Network Impact: Can consume significant network bandwidth, especially during large scans.
+- Remote Devices: Less effective for devices that are not always connected to the network.
 
 #### To perform stack fingerprinting with Nmap, you would use the `-O` option, which enables OS detection. The stack fingerprinting is part of the OS detection process.
 ### Nmap Flags:
