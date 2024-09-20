@@ -854,9 +854,8 @@ It is performed by placing characters such as ` " ' or '1'='1' " `on any basic i
 ### **DNS Tunneling**
 
 - A technique for tunneling non-DNS traffic through DNS queries and responses, using DNS as a covert communication channel.
-- Usage: 
-  - **Data Exfiltration:** Stealthily transfers data from a compromised network to an external server.
-  - **Command and Control (C2):** Establishes a covert communication link between a compromised system and a C2 server, bypassing detection.
+- It involves embedding malicious data within DNS queries and responses, allowing the attacker to create a covert channel for communication. By encoding commands and data in DNS packets, Jack could bypass traditional firewall defenses, as DNS traffic is typically allowed and monitored less rigorously than other types of traffic.
+- This technique enables the establishment of a command-and-control (C&C) communication link, effectively evading detection even when using DNSSEC, which is designed to protect the integrity and authenticity of DNS responses.
 ## **Tools**
 
 ### Wash
