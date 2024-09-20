@@ -232,6 +232,9 @@ It is a type of black-box testing method which means that tests are performed fr
 `Hping3 www.certifiedhacker.com —a 7 . 7 . 7 . 7`
 ### Conduct a subnet-wide scan with Hping3
 `hping3 -1 10.0.1.x --rand-dest -I eth0`
+### Hping
+  -1  --icmp       ICMP mode
+  -2  --udp        UDP mode
 
 # VULNERABILITY ANALYSIS {05}
 
