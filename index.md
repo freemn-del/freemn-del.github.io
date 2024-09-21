@@ -274,6 +274,7 @@ It is a type of black-box testing method which means that tests are performed fr
 ### Buffer Overflow
  
 - A buffer is a block of memory allocated to store data during program execution. A **buffer overflow** occurs when a program writes more data than the buffer can hold, causing it to overwrite neighboring memory locations. This vulnerability can be exploited by attackers to inject malicious code, leading to actions like file damage, data modification, unauthorized access, privilege escalation, or gaining shell access.
+
 ## Privilege Escalation
 
 - Exploit against a local vulnerability
