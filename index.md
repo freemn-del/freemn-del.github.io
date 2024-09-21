@@ -208,6 +208,14 @@ It is a type of black-box testing method which means that tests are performed fr
 21. **`-PY`**: **SCTP INIT Ping Scan**
    - Sends an SCTP INIT chunk to the target, which is part of the Stream Control Transmission Protocol (SCTP) handshake. This scan is used to detect whether the host is up by determining if it supports SCTP, a protocol used in some telecommunications networks.
 
+## Xmas scan
+
+- Sends packets with FIN, PSH, and URG flags set. This scan can sometimes bypass firewalls and detect open ports.
+
+- **Open Port:** No response
+
+- **Closed Port:**  The target typically sends a RST.
+
 ## NULL scan
 
 - This type of scan sends a TCP packet with no flags set. 
