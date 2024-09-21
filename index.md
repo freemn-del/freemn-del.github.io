@@ -279,6 +279,8 @@ It is a type of black-box testing method which means that tests are performed fr
 - Exploit against a local vulnerability
 ### Types of Privilege Escalation
 
+![V](assets/2327399.jpeg)
+
 #### Horizontal Privilege Escalation
 
 - Refers to acquiring the same privileges that have already been granted, by assuming the identity of another user with the same privileges.
