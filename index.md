@@ -127,6 +127,7 @@ It is a type of black-box testing method which means that tests are performed fr
 - Accuracy: High accuracy as they have direct access to the system's internals.
 - Network Impact: Minimal impact on network bandwidth since data is collected locally.
 - Remote Devices: Effective for devices that are often off-network, like laptops used by remote workers.
+
 ### Network-Based Scanners
 - Scanners are deployed on a network appliance or a virtual machine within the network.
 - Data Collection: Scans the network to identify vulnerabilities on connected devices.
@@ -234,10 +235,12 @@ It is a type of black-box testing method which means that tests are performed fr
 - **Closed Port**:  ICMP Port Unreachable
 
 - **Filtered Port**: No response will be received, and the status will be marked as **filtered** by the scanner.
+
 ## ARP Ping Scan
 
 - **ARP (Address Resolution Protocol) Ping Scan** is a network scanning technique used to identify active hosts on a local network by sending ARP requests and analyzing the responses.
 - Unlike traditional ping scans that use ICMP packets, ARP scans operate at the data link layer, making them highly effective for discovering devices within the same subnet.
+
 ## TCP Maimon Scan
 
 - The probe used here is FIN/ACK. In most cases, to determine if the port is open or closed, the RST packet should be generated as a response to a probe request. 
@@ -783,6 +786,7 @@ e.g.-
 ### In-Band SQL Injection
 
 - Attackers use the same communication channel to perform the attack and retrieve the results.
+  
 ### Out-of-Band SQL Injection
 
 - Attacks are difficult to perform because the attacker needs to communicate with the server and determine the features of the database server used by the web application. 
@@ -805,7 +809,7 @@ It is performed by placing characters such as ` " ' or '1'='1' " `on any basic i
 
 ### Yagi Antenna
 
-- A unidirectional antenna commonly used in communications for a frequency band of IO MHz to VHF and UHF.
+- A unidirectional antenna commonly used in communications for a frequency band of 10 MHz to VHF and UHF.
 
 ### Dipole Antenna
 
@@ -814,10 +818,13 @@ It is performed by placing characters such as ` " ' or '1'='1' " `on any basic i
 ### Reflector Antennas
 
 - Used to concentrate EM energy, which is radiated or received at a focal point.
+  
 ### Directional Antenna
 - Used to broadcast and obtain radio waves from a single direction.
+
 ### Omnidirectional Antenna
 - Provides a 360-degree horizontal radiation pattern; used in e wireless base stations.
+
 ### Parabolic Grid Antenna
 
 - Based on the principle of a satellite dish but lacks a solid backing; e can pick up Wi-Fi signals from ten miles or more.
@@ -847,6 +854,7 @@ It is performed by placing characters such as ` " ' or '1'='1' " `on any basic i
 
 - AES-GCMP 256 and SAE protocol, also known as Dragonfly Key Exchange.
 - Still uses a single pre-shared key, but with improved security over WPA2-Personal.
+  
 ### WPA3-Enterprise:
 
 - AES-GCMP-256 for encryption and HMAC-SHA-384 for authentication.
@@ -860,7 +868,6 @@ It is performed by placing characters such as ` " ' or '1'='1' " `on any basic i
 - **WPA2-Enterprise**: AES with dynamic keys via RADIUS and advanced authentication.
 - **WPA3-Personal**: AES with SAE and improved security features.
 - **WPA3-Enterprise**: AES with enhanced security features and advanced authentication.
-
 - **WPA2-Personal** and **WPA3-Personal** use a single password for authentication.
 - **WPA2-Enterprise** and **WPA3-Enterprise** use a server and support multiple authentication methods for better security.
 
@@ -872,21 +879,26 @@ It is performed by placing characters such as ` " ' or '1'='1' " `on any basic i
 - All secure Wi-Fi networks use the 4-way handshake process to join the network and generate a fresh encryption key that will be used to encrypt the network traffic.
 - The KRACK attack works by exploiting the 4-way handshake of the WPA2 protocol by forcing Nonce reuse.
 - KRACK works against all modern protected Wi-Fi networks and allows attackers to steal sensitive information, such as credit card numbers, passwords, chat messages, emails, and photos.
+
 ### aLTEr Attack
 
 - Usually performed on LTE devices.
 - Attacker installs a virtual (fake) communication tower between two authentic endpoints intending to mislead the victim.
 - This virtual tower is used to interrupt the data transmission between the user and real tower attempting to hijack the active session.
+  
 ### Evil Twin
 
 - Is a type of wireless attack where an attacker sets up a fake Wi-Fi access point that looks identical to a legitimate one. Unsuspecting users connect to this fake network, allowing the attacker to intercept sensitive information like login credentials and personal data.
+  
 ### Chop Chop Attack
 - Is a type of attack against WEP (Wired Equivalent Privacy), a now-obsolete wireless security protocol. In this attack, an attacker attempts to decrypt a data packet by removing bytes (chopping) from the end of the packet and analyzing the responses from the network, potentially allowing them to recover the plaintext of the packet.
-### **DNS Tunneling**
+
+### DNS Tunneling
 
 - A technique for tunneling non-DNS traffic through DNS queries and responses, using DNS as a covert communication channel.
 - It involves embedding malicious data within DNS queries and responses, allowing the attacker to create a covert channel for communication. By encoding commands and data in DNS packets, Jack could bypass traditional firewall defenses, as DNS traffic is typically allowed and monitored less rigorously than other types of traffic.
 - This technique enables the establishment of a command-and-control (C&C) communication link, effectively evading detection even when using DNSSEC, which is designed to protect the integrity and authenticity of DNS responses.
+
 ## **Tools**
 
 ### Wash
@@ -907,6 +919,7 @@ sudo wash -i wlan0
 ### SteelCentral
 
 - Packet analyzer measures wireless channel utilization and helps in identifying rogue wireless networks and stations
+
 ### Kismet
 
 - It is an 802.11 Layer2 wireless network detector, sniffer, and intrusion detection system, which identifies networks by passively collecting packets.
@@ -925,11 +938,12 @@ sudo wash -i wlan0
 **`Bluebugging`**
    - Gaining control over the device via Bluetooth
 
+**`BlueBorne`**
+- This Attack is performed on Bluetooth connections to gain access and take full control of the target device.
+
 **`Btlejacking`**
 
 Detrimental to BLE (Bluetooth low energy) devices, it is used to bypass security mechanisms and listen to information being shared.
-
-A `BlueBorne` attack is performed on Bluetooth connections to gain access and take full control of the target device
 
 ### Btlejacking Using BtleJack
 
@@ -969,6 +983,7 @@ btlejack -f Ox9c68fd30 -t -m Ox1fffffffff
 
 - Attackers perform when applications do not incorporate proper security measures against usage of the device's external storage.
 - This vulnerability leads to the installation of potentially malicious apps to the user's devices, thereby blocking access to legitimate apps.
+
 ### Advanced SMS Phishing
 
 - Attackers use any `low-priced USB modem` and trick the victim into accepting the malicious settings in the mobile, which results in redirecting all the victim's data to the attacker.
@@ -988,14 +1003,16 @@ btlejack -f Ox9c68fd30 -t -m Ox1fffffffff
 ### Userland Exploit
 
 - A userland jailbreak allows user-level access but does not allow iboot-level access.
+
 ### iBoot Exploit
 
 - An ibootjailbreak allows both user-level access and iboot-level access.
+
 ### Bootrom Exploit
 
 - A bootrom jailbreak allows both user-level access and iboot-level access.
 
-## **Jailbreaking Techniques**
+## Jailbreaking Techniques
 
 ### Untethered Jailbreaking 
 
@@ -1008,6 +1025,7 @@ btlejack -f Ox9c68fd30 -t -m Ox1fffffffff
 ### Tethered Jailbreaking 
 
 - With a tethered jailbreak, if the device starts back up on its own, it will no longer have a patched kernel, and it may get stuck in a partially started state; for it to completely start up with a patched kernel, it must be "re-jailbroken" with a computer (using the "boot tethered" feature of a jailbreaking tool) each time it is turned on.
+  
 ### Semi-untethered Jailbreaking
 
 - A semi-untethered jailbreak is similar to a semi-tethered jailbreak. In this type of a jailbreak, when the device reboots, the kernel is not patched, but the kernel can still be patched without using a computer. This is done using an app installed on the device.
@@ -1017,10 +1035,6 @@ btlejack -f Ox9c68fd30 -t -m Ox1fffffffff
 
 - Is a vulnerability that can be exploited by an attacker to read messages and emails and capture sensitive information from a remote location without the victim's knowledge.
 - This vulnerability exploits the "iTunes Wi-Fi Sync" feature, where the victim connects their phone to any trusted computer that is already infected by an attacker.
-
-### Bring your own device (BYOD) 
-
-- It's a policy that allows an employee to bring their personal devices, such as laptops, smartphones, and tablets, to their workplace and use them to access the organization's resources by following the access privileges.
 
 # IOT AND OT HACKING {18}
 
@@ -1069,6 +1083,7 @@ btlejack -f Ox9c68fd30 -t -m Ox1fffffffff
 - **Forged Malicious Device**: Attackers replace authentic IoT devices with malicious devices if they have physical access to the network.
 
 - **Exploit Kits**: A malicious script is used by the attackers to exploit poorly patched vulnerabilities in an IoT device.
+
 ## USB attack tools
 
 - **USB Dumper**: This tool is specifically designed to automatically and discreetly copy files from USB devices connected to a computer. It is used to capture data from USB drives without alerting the user.
@@ -1099,18 +1114,22 @@ btlejack -f Ox9c68fd30 -t -m Ox1fffffffff
 - Services are rendered over a network that is open for public use.
 - **Pros**: Cost-effective, scalable, and maintenance-free as the provider manages infrastructure.
 - **Cons**: Less control over the infrastructure and potential security concerns due to shared resources. 
+
 ### **Private Cloud**
 - cloud infrastructure is operated for a single organization only
 - **Pros**: Greater control, customization, and security. Suitable for organizations with strict compliance and data privacy requirements.
 - **Cons**: Higher cost and complexity due to the need for dedicated infrastructure.
+
 ### **Community Cloud**
 - Shared infrastructure between several organizations from a specific community with common concerns (security, compliance, jurisdiction, etc.).
 - **Pros**: Cost-sharing among organizations with similar needs, more secure than a public cloud.
 - **Cons**: Less customization than a private cloud, and the risk of sharing resources with other organizations.
+
 ### **Hybrid Cloud**
 - Combination of two or more clouds (private, community, or public) that remain unique entities but are bound together, thereby offering the benefits of multiple deployment models.
 - **Pros**: Flexibility to leverage the benefits of both public and private clouds. Cost savings and improved scalability.
 - **Cons**: Can be complex to manage and integrate the different environments.
+
 ###  **Multi-Cloud**
 - Dynamic heterogeneous environment that combines workloads across multiple cloud vendors, managed via one proprietary interface to achieve long term business goals.
 - **Pros**: Reduces dependency on a single provider, improves resilience, and leverages the best services from different providers.
@@ -1139,6 +1158,7 @@ btlejack -f Ox9c68fd30 -t -m Ox1fffffffff
 5. **Side-channel**: Attackers can compromise the cloud by placing a malicious virtual machine near a target cloud server and then launch a side-channel attack.
 
 6. **Cryptojacking:** Is the unauthorized use of the victim's computer to stealthily mine digital currency
+
 ### Docker component:
 
 - Docker Daemon: The Docker daemon `(dockerd)` processes the API requests and handles various.
@@ -1233,6 +1253,7 @@ Is a `symmetric` encryption algorithm that strengthens the original DES by apply
 ### PKI (Public Key Infrastructure)
 
 - PKI is a set of hardware, software, people, policies, and procedures required to create, manage, distribute, use, store, and revoke digital certificates.
+
 ### Components of PKI
 
 - Certificate Authority (CA): Issues and verifies digital certificates.
@@ -1284,14 +1305,17 @@ Is a `symmetric` encryption algorithm that strengthens the original DES by apply
 - Everyone in the network is a Certificate Authority (CA) and signs for other trusted entities
 - Is a chain of a network in which individuals intermediately validate each other's certificates using their signatures 
 - Every user in the network has a ring of public keys to encrypt the data, and they introduce many other users whom they trust
+
 ### IPSEC (Internet Protocol Security)
 
 - A suite of protocols for securing Internet communications by authenticating and encrypting IP packets.
 - Operates at the network layer, commonly used in Virtual Private Networks (VPNs).
+
 ### PPP (Point-to-Point Protocol)
 
 - A data link layer protocol for establishing direct connections between network nodes.
 - Provides authentication, encryption, and compression; used in dial-up, VPNs, and serial connections.
+
 ## Cryptography Attacks
 ### Adaptive Chosen-Plaintext Attack
 
@@ -1355,11 +1379,13 @@ These attacks do not require technical knowledge or tools. They are often referr
 
 - **Rainbow Table Attack (Pre-Computed Hashes)**: Using precomputed tables of hash values and corresponding passwords to crack encrypted passwords quickly.
 - **Distributed Network Attack**: Using multiple systems to distribute the workload of cracking passwords, often through a botnet or cloud computing resources.
+
 ### PEM (Privacy-Enhanced Mail)
 - Is a standard that provides a way to secure electronic mail using encryption and digital signatures. Although it was originally intended for email, it’s more commonly associated with file formats that store and share cryptographic keys, certificates, and other sensitive data. PEM files typically use `.pem` extensions and can store various types of data in a base64-encoded format.
 
 ### SET (Secure Electronic Transaction)
 - Is a protocol developed in the 1990s by Visa and Mastercard for securing online credit card transactions. It aimed to ensure the confidentiality of payment information during e-commerce transactions, but it never gained widespread adoption due to its complexity and the rise of alternative methods like SSL/TLS.
+
 ### Key Escrow
   
   - It involves storing cryptographic keys in a secure repository (such as Active Directory in this case) to ensure that keys can be retrieved if they are lost or if recovery is needed. This process is intended to provide a backup of the keys and ensure that encrypted data can be accessed if necessary, for example, if a user forgets their password or if a system is recovered after failure.    
@@ -1367,6 +1393,7 @@ These attacks do not require technical knowledge or tools. They are often referr
 -----------------------------------------------------------------------
 ***********************************************************************
 ___
+
 ## Common Tools
 
 ### CHNTPW
