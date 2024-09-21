@@ -26,6 +26,11 @@
 
 4. **Firewall-management policy**: This policy deals with the configuration and management of firewalls. It is not directly concerned with the use of dial-out modems or remote access methods.
 
+
+### Bring your own device (BYOD) 
+
+- It's a policy that allows an employee to bring their personal devices, such as laptops, smartphones, and tablets, to their workplace and use them to access the organization's resources by following the access privileges.
+  
 ## SAST AND DAST
 #### SAST (Static Application Security Testing)
 
