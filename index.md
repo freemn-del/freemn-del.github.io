@@ -277,7 +277,8 @@ It is a type of black-box testing method which means that tests are performed fr
 ## Privilege Escalation
 
 - Exploit against a local vulnerability
-### Types of Privilege Escalation
+
+## Types of Privilege Escalation
 
 ![V](assets/2327399.jpeg)
 
