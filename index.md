@@ -20,12 +20,11 @@
 
 1. **Remote-access policy**: This policy governs how users can remotely access the network and what methods are allowed for such access. Dial-out modems are a form of remote access, so this policy will provide guidance on whether their use is permitted or restricted.
 
-2. **Permissive policy**: This is not a standard security policy term. It may refer to policies that are less restrictive, but it’s not specifically related to remote access or modems.
+2. **Permissive policy**: This is not a standard security policy term. It may refer to policies that are less restrictive.
 
-3. **Acceptable-use policy**: This policy outlines acceptable behaviors and uses of network resources. While it might include some information about devices and their use, it is not specifically focused on remote access methods like dial-out modems.
-
-4. **Firewall-management policy**: This policy deals with the configuration and management of firewalls. It is not directly concerned with the use of dial-out modems or remote access methods.
-
+3. **Acceptable-use policy**: This policy outlines acceptable behaviors and uses of network resources.
+   
+5. **Firewall-management policy**: This policy deals with the configuration and management of firewalls. 
 
 ### Bring your own device (BYOD) 
 
