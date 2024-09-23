@@ -934,6 +934,7 @@ sudo wash -i wlan0
 
  **`Bluejacking`**
    - The art of `sending unsolicited messages` over Bluetooth to Bluetooth-enabled devices, such as mobile phones and laptops
+ 
  **`Bluesnarfing`**
    - The `theft of information` from a wireless device through a Bluetooth connection
 
