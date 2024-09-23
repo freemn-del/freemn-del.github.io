@@ -938,6 +938,9 @@ sudo wash -i wlan0
  **`Bluesnarfing`**
    - The `theft of information` from a wireless device through a Bluetooth connection
 
+**`Btlejacking`**
+Detrimental to BLE (Bluetooth low energy) devices, it is used to bypass security mechanisms and listen to information being shared.
+
  **`Bluesmacking`**
    - DoS attack, which `overflows Bluetooth-enabled` devices with random packets, causes the devices to crash.
 
@@ -948,10 +951,6 @@ sudo wash -i wlan0
 - This Attack is performed on Bluetooth connections to gain access and take full control of the target device.
 
 ## TOOLS
-
-### Btlejacking
-
-Detrimental to BLE (Bluetooth low energy) devices, it is used to bypass security mechanisms and listen to information being shared.
 
 ### Btlejacking Using BtleJack
 
