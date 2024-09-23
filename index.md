@@ -947,7 +947,7 @@ sudo wash -i wlan0
 **`BlueBorne`**
 - This Attack is performed on Bluetooth connections to gain access and take full control of the target device.
 
-**`Btlejacking`**
+### Btlejacking (It's a tool)
 
 Detrimental to BLE (Bluetooth low energy) devices, it is used to bypass security mechanisms and listen to information being shared.
 
