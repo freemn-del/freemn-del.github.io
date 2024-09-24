@@ -86,6 +86,7 @@ It is a type of black-box testing method which means that tests are performed fr
 
 **[info:]**
    - Provides information about a specific URL, such as its cached version or related sites. For example, `info:example.com` shows details about `example.com`, like a cached version or other information Google has about it.
+     
 **[index of]**
    - Displays a directory listing of files and folders on a web server. For example, `index of /images` shows a list of files and directories located in the `/images` directory of a website.
  
