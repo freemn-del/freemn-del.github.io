@@ -259,7 +259,7 @@ John performs black-box testing. It tries to pass IRC traffic over port 80/TCP f
 compromised web-enabled host during the test. Traffic is blocked, but outbound HTTP  
 traffic does not meet any obstacles. 
 What type of firewall checks outbound traffic?
-Ans: `Application`
+Ans: `Stateful`
 
 Which of the following best describes a software firewall?  
 Ans: `Software firewall is placed between the normal application and the networking components of the operating system`
