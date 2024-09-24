@@ -1,6 +1,53 @@
 Enumeration is a process which establishes an active connection to the target hosts to discover potential attack vectors in the system, and the same can be used for further exploitation of the system. What type of enumeration is used to get shared resources on individual hosts on the network and a list of computers belonging to the domain? 
+
 Ans: `Netbios enumeration`
+
 exp: `NetBIOS stands for Network Basic Input Output System. It Allows computer communication over a LAN and allows them to share files`
+
+A bank stores and processes sensitive privacy information related to home loans. However, auditing has never been enabled on the system. What is the first step that the bank should take before enabling the audit feature?
+Ans: `PKI`
+
+Let's assume that you decided to use PKI to protect the email you will send. At what layer of the OSI model will this message be encrypted and decrypted?  
+Ans: `Presentation layer`
+
+hich of the following is the best countermeasure to encrypting ransomwares?  
+Ans: `Keep some generation of off-line backup`
+
+Identify a low tech way of gaining unauthorized access to information? 
+Ans: `Social engineering`
+
+What social engineering principle could contribute to the effectiveness of a deceptive call from the help desk?
+Ans: `Authority`
+
+Which of the following categories of password attacks does not rely on technical hacking skills or system exploitation knowledge, encompassing methods like shoulder surfing, social engineering, and dumpster diving?
+Ans: `Non-electronic attacks`
+
+The purpose of a security policy is `_________`.
+Ans: `Providing high-level guidance on the role of security`
+
+Auke, a Network Administrator, has approached you seeking guidance on a tool that can assist him in conducting SNMP inquiries across the network. Which of these tools would fulfill his requirement for SNMP enumeration?  
+Ans: `SolarWinds IP Network Browser`
+	`SNScan`
+	`SNMPUtil`
+
+DNS cache snooping is a process of determining if the specified resource address is present in the DNS cache records. It may be useful during the examination of the network to determine what software update resources are used, thus discovering what software is installed.  
+What command is used to determine if the entry is present in DNS cache?
+Ans: `nslookup -norecursive update.antivirus.com`
+
+Choose the option best defining "covering your tracks".
+Ans: `Concealing activity`
+
+What type of address translation scheme enables a consistent mapping of a single public IP address to an individual machine on an internal network, facilitating "server publishing"?
+Ans: `Static Network Address Translation`
+
+Which hardware component is essential for the proper operation of an IDS/IPS system or a proxy server?
+Ans: `They must be dual-homed`.
+
+In the context of wireless security, which option represents a security layer in which per-frame or per-packet authentication is employed to safeguard against Man-in-the-Middle (MITM) attacks, ensuring that an attacker cannot eavesdrop on data when two legitimate users are engaged in communication?
+Ans: `Connection security`
+
+Which of the following does a buffer overflow attempt to control?
+Ans: `Instruction pointer`
 
 What is the purpose of the following command?  
 `net use targetipc$ “” /u:””`
@@ -76,6 +123,10 @@ Ans: `Technical threat intelligence`
 A security professional, for the threat intelligence process. He collected information about specific threats against the organization. From this information, he retrieved contextual information about security events and incidents that helped him disclose potential risks and gain insight into attacker methodologies. He collected the information from sources such as humans, social media, and chat rooms as well as from events that resulted in cyberattacks. In this process, he also prepared a report that includes identified malicious activities, recommended courses of action, and warnings for emerging attacks. What is the type of threat intelligence collected by Arnold in the above scenario?
 Ans: `Operational threat intelligence`
 
+  
+Which type of threat intelligence focuses on understanding the capabilities and activities of threat actors?
+Ans: `Operational threat intelligence`
+
 Identify the type of partial breaks in which the attacker discovers a functionally equivalent algorithm for encryption and decryption, but without learning the key?
 Ans: `Global deduction`
 
@@ -110,9 +161,6 @@ Ans: `Markov Chain`
 Evil Russian hacker Ivan is attacking again! This time, he got a job in a large American company to steal commercial information for his customer to gain a competitive advantage in the market. In his attack, Ivan used all available means, especially blackmail, bribery, and technological surveillance. What is the name of such an attack?  
 Ans: `Corporate Espionage`
 exp: `Or industrial espionage involves the covert and often illegal acquisition of confidential business information for competitive advantage. It typically includes methods like blackmail, bribery, and technological surveillance, as described in the scenario.`
-
-Identify a low tech way of gaining unauthorized access to information? 
-Ans: `Social engineering`
 
 John, a cybersecurity specialist, wants to perform a syn scan in his company's network. He has two machines. The first machine (192.168.0.98) has snort installed, and the second machine (192.168.0.151) has kiwi Syslog installed. When he started a syn scan in the network, he notices that kiwi Syslog is not receiving the alert message from snort. He decides to run Wireshark in the snort machine to check if the messages are going to the kiwi Syslog machine. What Wireshark filter will show the connections from the snort machine to kiwi Syslog machine?
 Ans: `tcp.dstport==514 && ip.dst==192.168.0.151`
@@ -173,9 +221,6 @@ Ans: `Add message authentication to the routing protocol.`
 
 Which of the following statements is TRUE?
 Ans: `Packet Sniffers operate on Layer 2 of the OSI model`
-
-Let's assume that you decided to use PKI to protect the email you will send. At what layer of the OSI model will this message be encrypted and decrypted?  
-Ans: `Presentation layer`
 
 Identify a tool that can be used for passive OS fingerprinting, similarly to the GUI-based tool Wireshark?
 Ans: `tcpdump`
@@ -632,13 +677,6 @@ exp: `This attack occurs when a cybercriminal eavesdrops on a secure network com
 The `Mirai` malware focuses on infiltrating IoT devices and leveraging them to form botnets, then employed for executing type of attack. What is it?
 Ans: `DDoS attack.`
 
-After an audit, the auditors inform you that there is a critical finding that you must tackle immediately. You read the audit report, and the problem is the service running on port 389.
-Which service is this and how can you tackle the problem?
-Ans: `The service is LDAP, and you must change it to 636, which is LDAPS.`
-
-Which protocol can be utilized to protect an LDAP service from anonymous queries?
-Ans: `NTLM`
-
 What is the tool employed by John to gather information from the LDAP service?
 Ans: `JXplorer`
 
@@ -712,6 +750,9 @@ What is a set of extensions to DNS that provide to DNS clients (resolvers) origi
 authentication, authenticated denial of existence and data integrity, but not availability or confidentiality?  
 Ans:`DNSSEC`
 
+Some clients of TPNQM SA were redirected to a malicious site when they tried to access the PNQM main site. Bob, a system administrator at TPNQM SA, found that they were victims of DNS Cache Poisoning. What should Bob recommend to deal with such a threat?
+Ans: `The use of DNSSEC`
+
 Gerard, a disgruntled ex-employee of Sunglass IT Solutions, targets this organization to perform sophisticated attacks and bring down its reputation in the market.
 To launch the attacks process, he performed DNS footprinting to gather information about DNS servers and to identify the hosts connected in the target network.
 He used an automated tool that can retrieve information about DNS zone data including DNS domain names, computer names, IP addresses, DNS records, and network Whois records. He further exploited this information to launch other sophisticated attacks.
@@ -730,6 +771,13 @@ Ans: `WPA3-Personal`
 
 Which of the following Wi-Fi security protocols utilizes EAP or RADIUS for centralized client authentication using multiple authentication methods, such as token cards, Kerberos, and certificates?
 Ans: `WPA2-Enterprise`
+
+After an audit, the auditors inform you that there is a critical finding that you must tackle immediately. You read the audit report, and the problem is the service running on port 389.
+Which service is this and how can you tackle the problem?
+Ans: `The service is LDAP, and you must change it to 636, which is LDAPS.`
+
+Which protocol can be utilized to protect an LDAP service from anonymous queries?
+Ans: `RADIUS`
 
 In the context of authenticating users accessing through analog modems, Digital Subscriber Lines (DSL), wireless data services, and Virtual Private Networks (VPN) via a Frame Relay network, which AAA protocol is most likely to meet this authentication requirement for an Internet Service Provider (ISP)?
 Ans: `RADIUS`
@@ -796,6 +844,9 @@ Ans: `Slowloris attack`
 
 How does a slowloris attack work?
 Ans: `Holds open connection buffers at the web server`
+
+What is the objective of a SYN flood attack?
+Ans: `Fill up connection buffers in the operating system`
 
 Identify the NetBIOS code used for obtaining the messenger service running for the logged-in user?
 Ans:   `<03>`
@@ -935,7 +986,6 @@ Ans: `Docker`
 
 John, a system administrator, is learning how to work with new technology: Docker. He will use it to create a network connection between the container interfaces and its parent host interface. Which of the following network drivers is suitable for John?
 Ans: `Macvlan networking`
-exp: `macvlan network driver to assign a MAC address to each container’s virtual network interface, making it appear to be a physical network interface directly connected to the physical network`
 
 Which of the following is a Docker network plugin designed for building security and  
 infrastructure policies for multi-tenant microservices deployments?  
@@ -1005,6 +1055,9 @@ If you encounter the following in a packet capture, what would you conclude abou
 `<!ENTITY xxe SYSTEM "file://etc /passwd" >`
 Ans: `XXE (XML external entity injection)`
 
+An attacker is trying to redirect the traffic of a small office. That office is using their own mail server, DNS server and NTP server because of the importance of their job. The attacker gain access to the DNS server and redirect the direction www.google.com to his own IP address. Now when the employees of the office want to go to Google they are being redirected to the attacker machine. What is the name of this kind of attack?  
+Ans: `DNS spoofing`
+
 What DNS poisoning technique is employed by attackers to infect a victim's machine with a Trojan and remotely alter their DNS IP address to match that of the attacker's?
 Ans: `Internet DNS spoofing`
 
@@ -1013,9 +1066,6 @@ Ans: `Modifying and replaying captured network traffic.`
 
 In the field of cryptanalysis, what does a "rubber-hose" attack refer to?
 Ans; `Extraction of cryptographic secrets through coercion or torture.`
-
-What is the objective of a SYN flood attack?
-Ans: `Fill up connection buffers in the operating system.`
 
 Sam, a penetration tester, has discovered password hashes on a client's system that she successfully infiltrated. To proceed with the test, she must leverage these password hashes, but time constraints prevent her from identifying the corresponding passwords. Which attack type can she employ to proceed?
 Ans: `Pass the hash`
@@ -1101,9 +1151,6 @@ Naava recently experienced an issue with her phone's internal speaker after acci
 Ans: `Spearphone attack.`
 (`This involves exploiting a phone's hardware, specifically targeting its microphone or loudspeaker, to eavesdrop on conversations or other audio information. In this case, Phillip exploited the compromised loudspeaker on Naava's phone to monitor her activities, which fits the description of a Spearphone attack.`)
 
-What social engineering principle could contribute to the effectiveness of a deceptive call from the help desk?
-Ans: `Authority`
-
 What is the main goal of a rootkit?
 Ans: `It replaces legitimate programs`
 
@@ -1121,9 +1168,6 @@ Ans: `Consideration for a broader range of attacks`
 
 In the context of an attacker seeking to examine all available shares within a domain, which Net View command would they employ?
 Ans: `Net view /domain`
-
-Which of the following categories of password attacks does not rely on technical hacking skills or system exploitation knowledge, encompassing methods like shoulder surfing, social engineering, and dumpster diving?
-Ans: `Non-electronic attacks.`
 
 Which wireless standard operates in a regulated frequency spectrum around 5 GHz and provides a bandwidth of up to 54 Mbit/s?
 Ans: `802.11a`
@@ -1249,7 +1293,6 @@ Ans: `/21`
 
 Which component on a computer's motherboard is responsible for generating encryption keys and only releasing a portion of the key to prevent decryption on a different hardware device?
 Ans: `TPM (Trusted Platform Module)`
-exp: (`The component responsible for generating encryption keys and ensuring their secure handling is the TPM. This microchip is installed on the motherboard and communicates with the system using a hardware bus`)
 
 Within OpenSSL on Linux servers, there exists a command line tool specifically designed for testing TLS connections. What is the accurate combination of the tool's name and the correct syntax to establish a connection with a web server?
 Ans: `openssl s_client -connect www.website.com:443`
@@ -1340,6 +1383,9 @@ process,  an automated tool to gather a list of words from the target website
 to further perform a brute-force attack on the previously gathered email addresses.
 What is the tool used  for gathering a list of words from the target website?
 Ans: `CeWL`
+
+What code-breaking method should Mark try next, considering his previous unsuccessful attempts at extracting cryptography keys using software methods?
+Ans: `Brute-Force`
 
 George, an employee of an organization, is attempting to access restricted websites from
 an official computer. For this purpose, he used an anonymizer that masked his real IP
