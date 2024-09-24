@@ -4,43 +4,59 @@ Ans: `Netbios enumeration`
 
 exp: `NetBIOS stands for Network Basic Input Output System. It Allows computer communication over a LAN and allows them to share files`
 
+As a Certified Ethical Hacker, you were contracted by a private firm to conduct an external security assessment through penetration testing. What document describes the specifics of the testing, the associated violations, and essentially protects both the organization's interest and your liabilities as a test?
+
+Ans: `Rule of Engagement`
+
 A bank stores and processes sensitive privacy information related to home loans. However, auditing has never been enabled on the system. What is the first step that the bank should take before enabling the audit feature?
+
 Ans: `PKI`
 
 Let's assume that you decided to use PKI to protect the email you will send. At what layer of the OSI model will this message be encrypted and decrypted?  
+
 Ans: `Presentation layer`
 
-hich of the following is the best countermeasure to encrypting ransomwares?  
+Which of the following is the best countermeasure to encrypting ransomwares?  
+
 Ans: `Keep some generation of off-line backup`
 
 Identify a low tech way of gaining unauthorized access to information? 
+
 Ans: `Social engineering`
 
+The purpose of a security policy is `_________`.
+
+Ans: `Providing high-level guidance on the role of security`
+
 What social engineering principle could contribute to the effectiveness of a deceptive call from the help desk?
+
 Ans: `Authority`
 
 Which of the following categories of password attacks does not rely on technical hacking skills or system exploitation knowledge, encompassing methods like shoulder surfing, social engineering, and dumpster diving?
+
 Ans: `Non-electronic attacks`
 
-The purpose of a security policy is `_________`.
-Ans: `Providing high-level guidance on the role of security`
-
 Auke, a Network Administrator, has approached you seeking guidance on a tool that can assist him in conducting SNMP inquiries across the network. Which of these tools would fulfill his requirement for SNMP enumeration?  
+
 Ans: `SolarWinds IP Network Browser`
 	`SNScan`
 	`SNMPUtil`
 
 DNS cache snooping is a process of determining if the specified resource address is present in the DNS cache records. It may be useful during the examination of the network to determine what software update resources are used, thus discovering what software is installed.  
 What command is used to determine if the entry is present in DNS cache?
+
 Ans: `nslookup -norecursive update.antivirus.com`
 
 Choose the option best defining "covering your tracks".
+
 Ans: `Concealing activity`
 
 What type of address translation scheme enables a consistent mapping of a single public IP address to an individual machine on an internal network, facilitating "server publishing"?
+
 Ans: `Static Network Address Translation`
 
 Which hardware component is essential for the proper operation of an IDS/IPS system or a proxy server?
+
 Ans: `They must be dual-homed`.
 
 In the context of wireless security, which option represents a security layer in which per-frame or per-packet authentication is employed to safeguard against Man-in-the-Middle (MITM) attacks, ensuring that an attacker cannot eavesdrop on data when two legitimate users are engaged in communication?
@@ -1547,7 +1563,7 @@ Ans: `Server-side includes injection.`
 Exp:`Server-side includes (SSI) injection: This type of injection attack occurs when an application allows user inputs to be incorporated into Server-side Includes (SSI) directives. If these inputs are not properly sanitized, attackers can inject malicious SSI directives. This can lead to unauthorized actions such as reading or modifying server files, or executing commands on the server. In Barry's case, since the application automatically incorporates user inputs into SSI directives, it creates a vulnerability for SSI injection attacks.`
 
 What is the **MINIMUM** required number of network connections for a multi-homed firewall?
-Ans; `2`
+Ans; `3`
 
 When working with Windows systems, what is the RID of the true administrator account?  
 Ans: `500`
