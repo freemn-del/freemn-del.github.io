@@ -111,4 +111,4 @@ In summary:
 Network Basic Input Output System. It Allows computer communication over a LAN and allows them to share files.
 
 
-![[Untitled.png]]
+![01](assets/submask.png)
