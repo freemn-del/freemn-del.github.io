@@ -1,1 +1,1 @@
-# freemn-del.github.io
+# https://freemn-del.github.io
