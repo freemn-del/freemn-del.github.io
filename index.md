@@ -1,6 +1,6 @@
 [Questions &  Answers](Q&A.md)
 
-[Q&A Flashcards](https://quizlet.com/user/r007us3r/sets)
+[MCQ Flashcards](https://quizlet.com/user/r007us3r/sets)
 [Exam practice](https://passemall.com/free-ceh-v11-practice-test/full-test)
 
 
