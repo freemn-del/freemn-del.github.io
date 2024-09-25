@@ -1157,13 +1157,21 @@ specializes in crypto mining and DDoS attacks?
 Ans: `Enemybot`
 
 Which element is essential for showcasing continuous security enhancement?
+
 Ans: `Metrics.`
 exp: (`Metrics are essential for showcasing continuous security enhancement because they provide measurable data on security performance. By tracking and analyzing metrics, organizations can assess their current security posture, identify areas needing improvement, and measure the effectiveness of their security measures over time. This helps in making informed decisions to enhance security continuously.`)
 
 In order to identify if an extracted LM hash contains a password that is less than 8 characters long, which of the following methods can be used?
+
 Ans: `The right most portion of the hash is always the same.`
 
+Which two of the following LM hashes correspond to passwords that are less than 8 characters in length?
+
+Ans: `44EFCE164AB921CQAAD3B435B51404EE`
+	`B757BF5C0D87772FAAD3B435B51404EE`
+
 Naava recently experienced an issue with her phone's internal speaker after accidentally dropping it. As a result, she has resorted to using the phone's loudspeaker for phone calls and other activities. Unfortunately, Phillip, an attacker, seizes this opportunity and covertly exploits the hardware of Naava's phone. He intends to monitor the loudspeaker's output, which includes data sources like voice assistants, multimedia messages, and audio files. Phillip achieves this by utilizing a malicious app to compromise Naava's speech privacy. What type of attack did Phillip carry out on Naava? 
+
 Ans: `Spearphone attack.`
 (`This involves exploiting a phone's hardware, specifically targeting its microphone or loudspeaker, to eavesdrop on conversations or other audio information. In this case, Phillip exploited the compromised loudspeaker on Naava's phone to monitor her activities, which fits the description of a Spearphone attack.`)
 
