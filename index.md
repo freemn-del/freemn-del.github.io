@@ -613,6 +613,7 @@ A program that conceals its code and intended purpose via various techniques, an
 ### R-U-Dead-Yet? (RUDY)
 
 - Is a type of denial-of-service (DoS) attack tool that exploits a vulnerability in web servers by sending long-form field submissions to exhaust server resources.
+  
 # SESSION HIJACKING {11}
 
 ### Session Replay Attacks
