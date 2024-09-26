@@ -707,6 +707,9 @@ SQL injection (SQLi) attacks attempt to inject SQL syntax into web requests, whi
 Which of the following SQLi types leverages a database server's ability to make DNS requests to pass data to an attacker?
 Ans: `Out-of-band SQLi`
 
+Which of the following SQLi types leverages a database server's ability to make DNS requests to pass data to an attacker
+Ans: `Out-of-band SQLi`
+
 Ethical hacker Jane Smith is attempting to perform an SQL injection attack. She wants to test the response time of a true or false response and wants to use a second command to determine whether the database will return true or false results for user IDs.
 Which two SQL injection types would give her the results she is looking for?
 Ans: `Time-based and boolean-based`
