@@ -366,7 +366,8 @@ A program that conceals its code and intended purpose via various techniques, an
 
    - Also known as non-malware, `infects legitimate software`, `applications`, and other protocols existing in the system to perform various malicious activities
    - It leverages any existing vulnerabilities to infect the system.
-   - It `resides in the system's RAM`. It injects malicious code into the running processes such as Microsoft Word, Flash, Adobe PDF Reader, Javascript, and PowerShell.  
+   - It `resides in the system's RAM`. It injects malicious code into the running processes such as Microsoft Word, Flash, Adobe PDF Reader, Javascript, and PowerShell.
+     
 ### Types of Viruses
 
 ### Stealth/Tunneling Virus
