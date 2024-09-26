@@ -276,11 +276,11 @@ It is a type of black-box testing method which means that tests are performed fr
 
 `Linux`: `64`
 
-### ICMP scan with Hping2
+### ICMP scan with Hping
 `hping2 -1 host.domain.com`
-### IP spoofing using Hping3
+### IP spoofing using Hping
 `hping3 www.certifiedhacker.com —a 7 . 7 . 7 . 7`
-### Conduct a subnet-wide scan with Hping3
+### Conduct a subnet-wide scan with Hping
 `hping3 -1 10.0.1.x --rand-dest -I eth0`
 
 # VULNERABILITY ANALYSIS {05}
