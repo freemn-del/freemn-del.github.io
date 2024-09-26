@@ -269,10 +269,13 @@ It is a type of black-box testing method which means that tests are performed fr
 ### Unicornscan
 
 - The OS of the target machine can be identified by observing the TTL values in the acquired scan result
+
 ### TTL values for various operating systems:
 
-`Windows: 128
-`Linux: 64
+`Windows`: 128
+
+`Linux`: 64
+
 ### ICMP scan with Hping2
 `hping2 -1 host.domain.com`
 ### IP spoofing using Hping3
