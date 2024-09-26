@@ -1074,7 +1074,7 @@ btlejack -f Ox9c68fd30 -t -m Ox1fffffffff
 
 ### Medium-Range Wireless Communication
 
-- **HaLow** extends Wi-Fi to support low-power, long-range IoT applications.
+- **HaLow** This is another variant of the Wi-Fi standard; it provides an extended range, making it useful for communications in rural areas. It offers low data rates, thus reducing the power and cost of transmission.
 
 - **6LoWPAN**: IPv6 over Low Power Personal Area Networks (6LoWPAN) is an Internet Protocol used for communication between smaller and low-power devices with limited processing capacity; it is mainly used for home and building automation.
 
