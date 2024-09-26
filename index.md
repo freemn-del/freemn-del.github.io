@@ -368,7 +368,7 @@ A program that conceals its code and intended purpose via various techniques, an
    - It leverages any existing vulnerabilities to infect the system.
    - It `resides in the system's RAM`. It injects malicious code into the running processes such as Microsoft Word, Flash, Adobe PDF Reader, Javascript, and PowerShell.
      
-### Types of Viruses
+## Types of Viruses
 
 ### Stealth/Tunneling Virus
 
