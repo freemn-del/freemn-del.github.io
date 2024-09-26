@@ -369,19 +369,25 @@ A program that conceals its code and intended purpose via various techniques, an
    - It `resides in the system's RAM`. It injects malicious code into the running processes such as Microsoft Word, Flash, Adobe PDF Reader, Javascript, and PowerShell.  
 ### Types of Viruses
 
-- **Stealth Virus**: This designed to hide from antivirus programs by altering system responses. It intercepts system requests to make infected files appear normal.
+### Stealth/Tunneling Virus
 
-- **Macro Virus**: It uses macros in Office documents to spread.
+- These viruses try to hide from antivirus programs by actively altering and corrupting the service call interrupts while running. The virus code replaces the requests to perform operations with respect to these service call interrupts. These viruses state false information to hide their presence from antivirus programs.
 
-- **Multipart Virus**: A virus with multiple components, infecting different file types or systems. 
+### Macro Virus
 
-- **Polymorphic Virus**: This changes its code structure each time it runs to evade detection. 
+- It uses macros in Office documents to spread.
 
-- **Tunneling Virus**: This bypasses antivirus detection by intercepting system interrupts or BIOS calls before they reach the antivirus software.
+### Multipart Virus
 
-- **Cavity Virus**: Also known as a space filler virus, it hides by inserting its code into unused spaces within a file, keeping the file size unchanged and evading detection.
+- A virus with multiple components, infecting different file types or systems. 
 
-- **Encryption Virus**: This encrypts its code to avoid detection. It uses a new encryption key each time it infects a file, making it difficult for antivirus tools to recognize.
+### Encryption Virus
+
+- Encryption viruses or cryptolocker viruses penetrate the target system via freeware, shareware, codecs, fake advertisements, torrents, email spam, and so on. This type of virus consists of an encrypted copy of the virus and a decryption module. The decryption module remains constant, whereas the encryption makes use of different keys.
+
+### Cavity Virus
+
+- Also known as a space filler virus, it hides by inserting its code into unused spaces within a file, keeping the file size unchanged and evading detection.
 
 # SNIFFING {08}
 
