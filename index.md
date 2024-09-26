@@ -197,7 +197,7 @@ It is a type of black-box testing method which means that tests are performed fr
    - Adjusts the speed of the scan to balance between speed and stealth. Ranges from 0 (Paranoid) to 5 (Insane). Example: `-T4` for faster scanning.
 
 **`-A`**: **Aggressive Scan**
-   - Enables OS detection, version detection, script scanning, and traceroute. Example: `nmap -A 192.168.1.1`.
+   - Enables OS detection, version detection, script scanning, and traceroute.
 
  **`-v`**: **Verbose Mode**
 - Increases the amount of output detail. Example: `-v` for basic verbosity, `-vv` for more detailed information.
