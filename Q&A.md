@@ -1571,7 +1571,7 @@ Ans: `Server-side includes injection.`
 Exp:`Server-side includes (SSI) injection: This type of injection attack occurs when an application allows user inputs to be incorporated into Server-side Includes (SSI) directives. If these inputs are not properly sanitized, attackers can inject malicious SSI directives. This can lead to unauthorized actions such as reading or modifying server files, or executing commands on the server. In Barry's case, since the application automatically incorporates user inputs into SSI directives, it creates a vulnerability for SSI injection attacks.`
 
 What is the **MINIMUM** required number of network connections for a multi-homed firewall?
-Ans; `3`
+Ans; `2`
 
 When working with Windows systems, what is the RID of the true administrator account?  
 Ans: `500`
