@@ -272,9 +272,9 @@ It is a type of black-box testing method which means that tests are performed fr
 
 ### TTL values for various operating systems:
 
-`Windows`: `128`
+Windows: 128
 
-`Linux`: `64`
+Linux: 64
 
 ### ICMP scan with Hping
 `hping2 -1 host.domain.com`
