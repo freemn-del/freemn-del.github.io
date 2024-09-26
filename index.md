@@ -272,14 +272,14 @@ It is a type of black-box testing method which means that tests are performed fr
 
 ### TTL values for various operating systems:
 
-`Windows`: 128
+`Windows`: `128`
 
-`Linux`: 64
+`Linux`: `64`
 
 ### ICMP scan with Hping2
 `hping2 -1 host.domain.com`
 ### IP spoofing using Hping3
-`Hping3 www.certifiedhacker.com —a 7 . 7 . 7 . 7`
+`hping3 www.certifiedhacker.com —a 7 . 7 . 7 . 7`
 ### Conduct a subnet-wide scan with Hping3
 `hping3 -1 10.0.1.x --rand-dest -I eth0`
 
