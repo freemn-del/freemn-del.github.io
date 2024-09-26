@@ -119,13 +119,21 @@ It is a type of black-box testing method which means that tests are performed fr
 ### MIB (Management Information Base)
 
 `LNMlB2.MlB`: Contains object types for workstation and server services
+
 `DHCP.MIB`: Monitors network traffic between DHCP servers and remote hosts
+
 `HOSTMIB.MIB`: Monitors and manages host resources
+
 `MIB_II.MIB`: Manages TCP/lP-based Internet using a simple architecture and system
+
 `WINS.MIB`: For the Windows Internet Name Service (WINS)
+
 ### SMTP Enumeration
+
 `VRFY` - Validates users
+
 `EXPN` - Shows the actual delivery addresses of aliases and mailing lists
+
 `RCPT TO` - Defines the recipients of a message
 
 # SCANNING NETWORKS {04}
