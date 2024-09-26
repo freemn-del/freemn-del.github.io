@@ -793,7 +793,7 @@ Which service is this and how can you tackle the problem?
 Ans: `The service is LDAP, and you must change it to 636, which is LDAPS.`
 
 Which protocol can be utilized to protect an LDAP service from anonymous queries?
-Ans: `RADIUS`
+Ans: `NTLM`
 
 In the context of authenticating users accessing through analog modems, Digital Subscriber Lines (DSL), wireless data services, and Virtual Private Networks (VPN) via a Frame Relay network, which AAA protocol is most likely to meet this authentication requirement for an Internet Service Provider (ISP)?
 Ans: `RADIUS`
