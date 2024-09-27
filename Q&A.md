@@ -571,8 +571,7 @@ Ans: `The scan on port 23 passed through the filtering device. This indicates th
 
 `Q1.`Which of the following will allow you to prevent unauthorized network access o local area networks and other information assets by wireless devices?
 `Q2.`Which of these is capable of searching for and locating rogue access points?
-Ans: `WIPS`
-exp: `WIPS is specifically designed to monitor, detect, and prevent unauthorized access points and devices on a wireless network. It actively scans the network for rogue access points, unauthorized devices, and other potential security threats related to wireless communications.`
+Ans: `WIPS (Wireless Intrusion Prevention System)`
 
 The target of a cross-site scripting attack is `___________`.
 Ans: `User`
