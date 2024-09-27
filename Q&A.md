@@ -1037,6 +1037,9 @@ Ans: `Quantum Cryptography`
 Which of the following modes of `IPSec` should you use to assure integrity and confidentiality of data within the same LAN? 
 Ans: `ESP transport mode`
 
+Which of the following components of IPsec provides confidentiality for the content of packets? 
+Ans: `ESP`
+
 What protocol is commonly employed to establish secure connections between two devices, often within Virtual Private Networks (VPNs)?
 Ans: `IPSEC`
 
