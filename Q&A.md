@@ -1,3 +1,12 @@
+
+To protect the enterprise infrastructure from the constant attacks of the evil hacker Ivan, Viktor divided the network into two parts using the network segmentation approach. · In the first one (local, without direct Internet access), he isolated business-critical resources. · In the second (external, with Internet access), he placed public web servers to provide services to clients. Subnets communicate with each other through a gateway protected by a firewall. What is the name of the external subnet?
+
+Ans: `Demilitarized Zone`
+
+You want to surf safely and anonymously on the Internet. Which of the following options will be best for you? 
+
+Ans: `Use Tor network with multi-node`
+
 Enumeration is a process which establishes an active connection to the target hosts to discover potential attack vectors in the system, and the same can be used for further exploitation of the system. What type of enumeration is used to get shared resources on individual hosts on the network and a list of computers belonging to the domain? 
 
 Ans: `Netbios enumeration`
@@ -67,58 +76,75 @@ Ans: `Instruction pointer`
 
 What is the purpose of the following command?  
 `net use targetipc$ “” /u:””`
+
 Ans: `This command is used to connect as a null session.`
 
 Which of the following program infects the system boot sector and the executable les at the same time?
+
 Ans: `Multipartite Virus`
 
 Frank is conducting network device testing and is using Macof to flood the ARP cache of certain switches. If the ARP cache of these switches is successfully flooded, what will be the outcome?
+
 Ans: `The switches will drop into hub mode if the ARP cache is successfully flooded`
 
 Session splicing is an IDS evasion technique in which an attacker delivers data in multiple, small sized packets to the target computer, making it very di cult for an IDS to detect the attack signatures. Which tool can be used to perform session splicing attacks?
+
 Ans: `Whisker`
 
 This scanning method lacks a three-way handshake, and it doesn't generate a response when the port is open. Instead, it triggers an ICMP port unreachable message when the port is closed. What scanning technique is being described?
+
 Ans: `UDP scanning`
 
 Which step in the risk assessment methodology is associated with identifying vulnerabilities?
+
 Ans: `Determines risk probability that vulnerability will be exploited (High, Medium, Low).`
 
 Which method would be most suitable for obtaining all the hostnames linked to a domain?
+
 Ans: `Zone transfer`
 
 During a penetration test, you have obtained shell access to a Windows machine within the client's internal network. Your objective is to retrieve all DNS records for the internal domain. The DNS server's IP address is 192.168.10.2, and the domain name is abccorp.local. Which command would you enter at the nslookup prompt to attempt a zone transfer?
+
 Ans: `is-d abccorp.local`
 
 In what situations does a secondary name server initiate a zone transfer from a primary name server?
+
 Ans: `When a primary SOA is higher than a secondary SOA`
 
 Which of the following help to prevent replay attacks and uses in garage door openers or keyless car entry system?
+
 Ans: `Rolling code`
 exp: `Or Hopping code is used in keyless entry systems to prevent replay attacks, where an eavesdropper records the transmission and replays it at a later time to cause the receiver to 'unlock'. Such systems are typical in garage door openers and keyless car entry systems.`
 
 Which of the Resource Records (RRs) listed below make up a zone file?
+
 Ans: `SOA, NS, A, and MX records`
 
 Which security risk involves the inadvertent exposure of internal variables or objects through an API due to inadequate binding and filtering using a whitelist, thereby enabling unauthorized access for attackers to manipulate object properties?
+
 Ans: `Broken object-level authorization`
 
 An attacker is attempting to crack a WEP code to gain access to the network. After enabling monitor mode on wlan0 and creating a monitoring interface (mon 0), she types this command: 
 aireplay -ng -0 0 -a 0A:00:2B:40:70:80 -c mon0  
 What is she trying to accomplish?  
+
 Ans: `To use deauthentication packets to generate lots of network traffic`
 
 Which type of cluster computing architecture distributes workloads across multiple nodes to prevent overloading any single node, and employs regular health checks to detect and isolate failing nodes, redirecting incoming traffic to healthy nodes?
+
 Ans: `Load balancing`
 
 sqlmap.py-u ,,http://10.10.1.20/?p=1&forumaction=search" -dbs  
 For which purpose is the provided command used for?
+
 Ans: `Enumerating the databases in the DBMS for the URL`
 
 In Trojan terminology, what does the term "covert channel" refer to?  
+
 Ans: `A channel that transfers information within a computer system or network in a way that violates the security policy`
 
 Choose the option that best describes a covert channel.
+
 Ans: `Making use of a protocol in a way it is not intended to be used`
 
 Which antenna is designed to facilitate client connections rather than site-to-site applications, providing bidirectional coverage?
@@ -172,25 +198,32 @@ Which of the following documents describes the specifics of the testing associat
 Ans: `Rules of Engagement`
 
 Having a sufficient database of passwords, you can use statistical analysis of the list of words, you can create a very effective way to crack passwords for such tools as, for example, John The Ripper. Which of the attacks uses such an analysis to calculate the probability of placing characters in a quasi-brute attack?
+
 Ans: `Markov Chain`
 
 Evil Russian hacker Ivan is attacking again! This time, he got a job in a large American company to steal commercial information for his customer to gain a competitive advantage in the market. In his attack, Ivan used all available means, especially blackmail, bribery, and technological surveillance. What is the name of such an attack?  
+
 Ans: `Corporate Espionage`
 exp: `Or industrial espionage involves the covert and often illegal acquisition of confidential business information for competitive advantage. It typically includes methods like blackmail, bribery, and technological surveillance, as described in the scenario.`
 
 John, a cybersecurity specialist, wants to perform a syn scan in his company's network. He has two machines. The first machine (192.168.0.98) has snort installed, and the second machine (192.168.0.151) has kiwi Syslog installed. When he started a syn scan in the network, he notices that kiwi Syslog is not receiving the alert message from snort. He decides to run Wireshark in the snort machine to check if the messages are going to the kiwi Syslog machine. What Wireshark filter will show the connections from the snort machine to kiwi Syslog machine?
+
 Ans: `tcp.dstport==514 && ip.dst==192.168.0.151`
 
 A Wireshark filter is applied using the expression: tcp.srcport == 80 && ipc.src == 192.168.1.1 Which statement accurately describes the effect of this capture filter?
+
 Ans: `All HTTP traffic from 192.168.1.1 will be displayed in the results`
 
 Which of the following best describes of counter-based authentication system? 
+
 Ans: `An authentication system that creates one-time passwords that are encrypted with secret keys.`
 
 You receive an email from your senior colleague, Ben, regarding a client deal. Upon his request, you accept the offer. However, after 2 days, Ben denies ever sending the email. To confirm that it was indeed Ben who sent the email, what aspect do you need to "know"?
+
 Ans: `Non-Repudiation`
 
 Which principle is employed to validate that a signed message originated from the possessor of the key that executed the signing?
+
 Ans: `Non repudiation`
 
 A digital signature is the digital equivalent of a handwritten signature or stamped seal. It is intended to solve the problem of tampering and impersonation in digital communications. Which of the following option does a digital signature NOT provide? 
@@ -203,81 +236,97 @@ exp:
 `------------------------------------------------------------------------------`
 
 Assume an attacker gained access to the internal network of a small company and launches a successful STP manipulation attack. What are his next steps?
+
 Ans: `He will create a SPAN entry on the spoofed root bridge and redirect traffic to his computer.`
 
-Which of the following cipher is based on factoring the product of two large prime numbers? Ans: `RSA`
+Which of the following cipher is based on factoring the product of two large prime numbers? 
+
+Ans: `RSA`
 
 Which of the following best describes code injection? 
+
 Ans: `Form of attack in which a malicious user inserts text into a data field interpreted as code.`
 
 Determine what of the list below is the type of honeypots that simulates the real production network of the target organization?
+
 Ans: `Pure Honeypots`
 
 Dayn, an attacker, wanted to detect if any honeypots are installed in a target network. 
 For this purpose, he used a time-based TCP fingerprinting method to validate the response to a
 normal computer and the response of a honeypot to a manual SYN request.
 Which of the following techniques is employed by Dayn to detect honeypots?
+
 Ans:. `Detecting the presence of Honeyd honeypots`
 
 `Q1.`The known-plaintext attack used against DES. This attack causes that encrypting plaintext with one DES key followed by encrypting it with a second DES key is no more secure than using a single key
 `Q2.`What is the cryptographic attack technique used against DES, where encrypting plaintext with one DES key followed by encrypting it with a second DES key is no more secure than using a single key?
+
 Ans: `Meet-in-the-middle attack`
 
 What is the most common method to exploit the `Bash Bug` or `Shellshock` vulnerability?  
+
 Ans: `Through Web servers utilizing CGI (Common Gateway Interface) to send a malformed environment variable to a vulnerable Web server`
 
 Which of the following tools is a command-line vulnerability scanner that scans web servers for dangerous files/CGIs?
+
 Ans: `Nikto`
 
 Which one of the following tools can you use to enumerate bucket permissions?
+
 Ans: `S3 Inspector`
 
 Black hat hacker Ivan wants to implement a man-in-the-middle attack on the corporate network. For this, he connects his router to the network and redirects traffic to intercept packets. What can the administrator do to mitigate the attack?
+
 Ans: `Add message authentication to the routing protocol.`
 
 Which of the following statements is TRUE?
+
 Ans: `Packet Sniffers operate on Layer 2 of the OSI model`
 
 Identify a tool that can be used for passive OS fingerprinting, similarly to the GUI-based tool Wireshark?
 Ans: `tcpdump`
 
 Which of the following tools is used to analyze the files produced by several packet-capture programs such as tcpdump, WinDump, Wireshark, and EtherPeek?
+
 Ans: `tcptrace`
 
 You are utilizing Wireshark to analyze network traffic. You intend to set up a cron job to regularly execute a capture on a specific range of IP addresses - 192.168.8.0/24. Which command should you use?
+
 Ans: `sudo tshark -f''net 192 .68.8.0/24''`
 
 To prepare a Windows laptop for testing, a penetration tester is configuring Wireshark. To enable the NIC to operate in promiscuous mode, which specific driver and library must be installed?
+
 Ans: `Winpcap`
 
 You want to analyze packets on your wireless network. Which program would you use?
-Ans: `Wireshark with Airpcap
-exp: `Wireshark is a widely used network protocol analyzer that can capture and analyze packets on a network. For wireless packet capture, especially in a Windows environment, Airpcap is specifically designed for capturing packets on wireless networks, as it provides the capability to capture raw 802.11 frames.`
 
-Wireshark is one of the most important tools for a cybersecurity specialist. It is used for network troubleshooting, analysis, software, etc. And you often have to work with a  
-packet bytes pane. 
+Ans: `Wireshark with Airpcap`
+exp: `Airpcap is specifically designed for capturing packets on wireless networks, as it provides the capability to capture raw 802.11 frames.`
+
+Wireshark is one of the most important tools for a cybersecurity specialist. It is used for network troubleshooting, analysis, software, etc. And you often have to work with a packet bytes pane. 
 In what format is the data presented in this pane?
+
 Ans: `Hexadecimal`
- 
-Wireshark is one of the most important tools for a cybersecurity specialist. It is used for network troubleshooting, analysis, software, etc. And you often have to work with a packet bytes pane. In what format is the data presented in this pane?
-Ans: `Binary`
 
 Which of the following application security testing method of white-box testing, in which only the source code of applications and their components is scanned for determines potential vulnerabilities in their software and architecture?  
+
 Ans: `SAST (Static Application Security Testing)`
-exp: `It involves analyzing the source code of applications and their components to identify potential vulnerabilities and security issues in the software's architecture. This method is performed without executing the code and is typically used during the development phase to detect vulnerabilities early in the software lifecycle.`
 
 Josh, a security analyst, wants to choose a tool for himself to examine links between  
 data. One of the main requirements is to present data using graphs and link analysis.  
 Which of the following tools will meet John's requirements?
+
 Ans: `Maltego`
 
 John performs black-box testing. It tries to pass IRC traffic over port 80/TCP from a  
 compromised web-enabled host during the test. Traffic is blocked, but outbound HTTP  
 traffic does not meet any obstacles. 
 What type of firewall checks outbound traffic?
-Ans: `Stateful`
 
-Which of the following best describes a software firewall?  
+Ans: `Application`
+
+Which of the following best describes a software firewall?
+
 Ans: `Software firewall is placed between the normal application and the networking components of the operating system`
 
 Which of the following tools is packet sniffer, network detector and IDS for 802.11(a, b, g, n) wireless LANs?  
@@ -289,31 +338,38 @@ Time August 21 11:22:21
 Source: 192.168.0.30  Port:443
 Destination: 192.168.0.132 Protocol : TCP  
 What conclusion can you make based on this output?
+
 Ans: `Port scan targeting 192.168.0.132`
 
 After several unsuccessful attempts to extract cryptography keys using software  
 methods, Mark is thinking about trying another code-breaking methodology. 
 Which of the following will best suit based on his unsuccessful attempts?
+
 Ans: `Trickery and Deceit`
 exp: `This is a social engineering techniques or other manipulative strategies that do not rely on software or mathematical attacks directly against the cryptographic algorithms themselves. These methods can include phishing, pretexting, or other forms of deception to trick individuals into revealing cryptographic keys or other sensitive information.`
 
 During a scan using Nmap, Putin identified several hosts with incremental IP ID sequences. Subsequently, he initiated the following command: `nmap -Pn -p- -si kiosk.adobe.com www.riaa.com`. Notably, kiosk.adobe.com exhibits an incremental IP ID sequence. 
 What is the purpose of utilizing `"-si"` in this Nmap command?
-Ans; `Conduct IDLE scan`
+
+Ans: `Conduct IDLE scan`
 
 What is the definition of a NULL scan?
+
 Ans: `A scan in which all flags are turned off.`
 
 What is the proper response for a NULL scan if the port is open?
 Ans: `No response.`
 
 What is the proper response for a NULL scan if the port is Closed?
+
 Ans: `RST`
 
 In an Xmas scan, which signal suggests that a port is closed?
+
 Ans: `RST`
 
 Which TCP flag directs the sending system to immediately transmit all buffered data?
+
 Ans: `PSH`
 
 Which of the following systems would not respond correctly to an nmap Xmas scan?  
@@ -331,6 +387,7 @@ After scanning the ports on the target machine, you see a list of open ports, wh
 `631/tcp open ipp` 
 `9100/tcp open MAC Address: 00:00:5D:3F:EE:92`
 Based on the NMAP output, identify what is most likely this host?
+
 Ans: `The host is likely a printer`
 
 Which of the following Nmap commands would be used to perform a stack fingerprinting?  
@@ -338,6 +395,7 @@ Ans: `Nmap -O -p80 <host>`
 
 What flags will be set when scanning when using the following command:
 `root@web# nmap -sX domain.com`
+
 Ans: `URG, PUSH and FIN are set.`
 
 You must to identifying open ports in the target network and determining whether the ports are online and any firewall rule sets are encountered. Which of the following nmap commands do you must use to perform the TCP SYN ping scan?
@@ -519,11 +577,6 @@ Ans: `USM Anywhere`
 Your company was hired by a small healthcare provider to perform a technical assessment on the network. 
 What is the best approach for discovering vulnerabilities on a Windows-based computer?
 Ans: `Use a scan tool like Nessus`
-
-Ted performed tool-based vulnerability assessment and found two vulnerabilities. 
-During analysis, he found that these issues are not true vulnerabilities.
-What will you call these issues?
-Ans: `False positives`
 
 Eric, a cloud security engineer, implements a technique for securing the cloud resources used by his organization. This technique assumes by default that a user attempting to access the network is not an authentic entity and verifies every incoming connection before allowing access to the network. Using this technique, he also imposed conditions such that employees can access only the resources required for their role.
 What is the technique employed by Eric to secure cloud resources?
@@ -1542,12 +1595,15 @@ What security triad property is addressed by the Biba security model?
 Ans: `Integrity`
 
 In an attempt to gain network access, an attacker is trying to crack the WEP code. They execute the command "aireplay-ng -0 0 -a" after enabling monitor mode on wlan0 and creating a monitoring interface (mon 0) with the command "-c mon0 0A:00:2B:15:22:AC 0A:00:2B:15:22:AC 0A:00:2B:15:22:AC." What is the objective of the attacker?
+
 Ans: `To generate a lot of network traffic with deauthentication packets`
 
 Which of the following options would you employ to eliminate malware within the network prior to reaching the endpoint?
+
 Ans: `Unified threat management appliance`
 
 What is the name of the vulnerability in OpenSSL that allows attackers to steal information that is normally protected by the SSL/TLS encryption used to secure internet communications?
+
 Ans: `Heartbleed Bug`
 
 The Heartbleed bug was discovered in 2014 and is widely referred to under MITRE's Common Vulnerabilities and Exposures (CVE) as CVE-2014- 0160. This bug affects the OpenSSL implementation of the Transport Layer Security (TLS) protocols defined in RFC6520. What type of key does this bug leave exposed to the Internet making exploitation of any compromised system very easy?  
@@ -1566,92 +1622,120 @@ Which of the following hping commands is utilized by an attacker to conduct a su
 Ans; `hping3 -1 10.0.1.x --rand-dest -I eth0`
 
 What is a method commonly used for storing session data?
+
 Ans: `Cookie`
 
 What measure can effectively prevent TCP session hijacking?
+
 Ans: `Use unpredictable sequence numbers`
 
 Barry, a software developer, employs a feature that automatically generates web page content without manual intervention, utilizing SSI directives. This introduces a vulnerability in the developed web application, as this feature accepts remote user inputs and incorporates them into the page. Hackers can exploit this feature by injecting malicious SSI directives as input values, enabling them to execute unauthorized actions such as modifying or deleting server files. What is the type of injection attack Barry's web application is susceptible to?
+
 Ans: `Server-side includes injection.`
 Exp:`Server-side includes (SSI) injection: This type of injection attack occurs when an application allows user inputs to be incorporated into Server-side Includes (SSI) directives. If these inputs are not properly sanitized, attackers can inject malicious SSI directives. This can lead to unauthorized actions such as reading or modifying server files, or executing commands on the server. In Barry's case, since the application automatically incorporates user inputs into SSI directives, it creates a vulnerability for SSI injection attacks.`
 
 What is the **MINIMUM** required number of network connections for a multi-homed firewall?
+
 Ans; `2`
 
 When working with Windows systems, what is the RID of the true administrator account?  
+
 Ans: `500`
 
 Hacker successfully establishes a `meterpreter` session. Upon checking his current Security Identifier (SID), Joel observes that it is S-1-5-21-1223352397-1872883824-861252104-501. What action does Joel need to take to obtain full administrator access?
+
 Ans; `He must perform privilege escalation`
 
 In May 2017, a particular ransomware capitalized on a vulnerability in Windows SMB called the Eternal Blue exploit, rapidly spreading across the globe within hours. However, a concealed kill switch embedded within the ransomware's code was swiftly identified, effectively stopping its further propagation. Which option is the most suitable match for this description?
+
 Ans: `WannaCry`
 
 Which protocol is employed in a Smurf attack?
+
 Ans: `ICMP`
 
 What type of attack occurs when an assailant initiates a DoS attack on a system by initially falsifying the target's IP address and subsequently inundating it with copious ICMP packets containing the MAC address FF:FF:FF:FF:FF:FF?
+
 Ans: `Smurf`
 
 The majority of routers and switches employ packet-filtering firewalls, which determine whether to allow or deny network traffic based on the information found in the packet header. At which OSI model layer do these firewalls operate?
+
 Ans: `Network layer`
 
 During which stage of social engineering attacks does an attacker gather confidential details about the organization's accounts, financial information, technologies in use, and future plans?
+
 Ans: `Exploit the relationship.`
 
 To bypass user authentication and extract data. This technique involves using a conditional OR clause to ensure that the condition in the WHERE clause always evaluates to true.
+
 Ans: `Tautology`
 
 What involves splitting the TCP header into multiple packets to obfuscate the purpose of the packet and make it challenging for packet filters to detect?
+
 Ans: `SYN/FIN scanning using IP fragment`
 
 After setting up a security system on your network, in which type of system would you typically encounter the following string of characters used as a rule within its configuration?  
 alert tcp any any -> 192.168.100.0/24 21 (msg: ""FTP on the network!"";)
+
 Ans: `An Intrusion Detection System.`
 
 Which law regulates e-mail scams and mail fraud?
+
 Ans: `18 U.S.C. par. 1030 Fraud and Related Activity in connection with Computers.`
 
 How do Tripwire and similar applications assist in protecting against Trojan attacks?
+
 Ans: `It's a file integrity checker that alerts you when a system file is changed.`
 
 Which of the following pieces of information can be obtained by executing the query 
 http://www.certifiedhacker.com/page.aspx?id=1 or 1=convert (int,(select top 1 name from sysobjects where xtype=char(85)))-- ?
+
 Ans: `1st database table`
 
 How do you compute risk?
+
 Ans: `Probability * loss`
 
 Which communication protocol is a version of the Wi-Fi standard that offers an extended range, making it suitable for use in rural areas, and supports low data rates?
+
 Ans: `HaLow`
 
 What purpose does Diffie-Hellman serve?
+
 Ans: `Key exchange.`
 
 Which Linux command is designed to translate a domain name into an IP address?
+
 Ans: `>host -t a hackeddomain.com`
 
 A hacker is a clever individual possessing advanced computer skills, capable of delving into both the software and hardware of a computer without the owner's consent. Their motivation may involve seeking knowledge or making unauthorized alterations. Among the following hacker classifications, which one denotes an individual who alternates between offensive and defensive activities?
+
 Ans: `Gray Hat`
 
 Which of the following drozer commands would an attacker use to discover the list of exported activities, services, broadcast receivers, and content providers on a targeted mobile device?
+
 Ans: `dz> run app.package.attacksurface <package_name>`
 
 By exploiting which SCADA vulnerability does an attacker take advantage of code security issues such as out-of-bound read/write vulnerabilities, and heap- and stack-based buffer overflow?
+
 Ans: `Memory corruption`
 Exp: `This vulnerability involves issues related to how an application manages memory, including out-of-bounds reads/writes, and buffer overflows. These types of vulnerabilities can lead to unauthorized access, data corruption, or execution of arbitrary code. In SCADA systems, such memory corruption issues could be exploited to disrupt or take control of industrial processes.`
 
 Which result will be displayed when using the following Google search query?  
 `site:target.com - site:Marketing.target.com accounting`
+
 Ans: `Results matching "accounting" in domain target.com but not on the site Marketing.target.com`
 
 Which results will be returned with the following Google search query? 
 ``site:target.com `" site:Marketing.target.com accounting``
+
 Ans: `Results for matches on target.com and Marketing.target.com that include the word accounting`
 
 When initiating a standard TCP connection, the destination host receives a SYN (synchronize/start) packet from a source host, responding with a SYN/ACK (synchronize acknowledge). The connection is established only after the destination host receives an ACK (acknowledge) of the SYN/ACK, forming the "TCP three-way handshake." During the wait for the ACK to the SYN/ACK, a finite-sized connection queue on the destination host manages pending connections. Given this, how could an attacker take advantage of this design through a TCP SYN attack?
+
 Ans; `The attacker floods TCP SYN packets with random source addresses towards a victim host.`
 
 The attacker is deploying deceptive router advertisement messages to reroute all data packets through their system. Subsequently, they aim to eavesdrop on the traffic to extract valuable information from the data packets, enabling them to execute additional attacks like man-in-the-middle, denial-of-service, and passive sniffing attacks on the targeted network. In this context, which of the following methods is the attacker employing?
+
 Ans: `IRDP spoofing`
 Exp: `Inter-Site Routing Protocol Spoofing: IRDP is a protocol used in IPv6 networks for router discovery. By sending deceptive IRDP advertisements, an attacker can trick devices into routing traffic through their system instead of the legitimate router. This allows the attacker to intercept and analyze traffic, enabling them to perform various attacks such as man-in-the-middle, passive sniffing, and denial-of-service attacks.`
