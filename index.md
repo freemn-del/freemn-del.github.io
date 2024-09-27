@@ -6,10 +6,8 @@
 
 [Exam practice](https://passemall.com/free-ceh-v11-practice-test/full-test)
 
-
-
 <head>
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="icon" href="assets/favicon.ico" type="image/ico"">
 </head>
 
 # INTRODUCTION TO ETHICAL HACKING {01}
