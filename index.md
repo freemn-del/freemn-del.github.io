@@ -1,5 +1,5 @@
 <head>
-  <link rel="icon" href="assets/favicon.ico" type="image/x-ico">
+  <link rel="icon" href="assets/favicon.ico" type="image/ico">
 </head>
 
 [Questions &  Answers](Q&A.md)
