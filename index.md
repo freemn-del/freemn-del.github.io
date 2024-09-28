@@ -619,12 +619,6 @@ A program that conceals its code and intended purpose via various techniques, an
 - In a session replay attack, the attacker listens to the conversation between the user and the server and captures the authentication token of the user
 - Once the authentication token is captured, the attacker replays the request to the server with the captured authentication token and gains unauthorized access to the server
 
-### Session Fixation Attack
-
-- This attack that allows an attacker to `hijack a valid user session`.
-- An attacker attempts to `lure a user to authenticate himself with a known session ID` and then hijacks the user- validated session with the knowledge of the used session ID
-- The attacker has to provide a legitimate session ID and attempt to lure the victim's browser to use it
-
 ### Session Donation Attack
 
 - In a session donation attack, an attacker `donates his own session identifier (SID)` to the target user.
