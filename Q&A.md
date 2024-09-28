@@ -1,4 +1,3 @@
-
 To protect the enterprise infrastructure from the constant attacks of the evil hacker Ivan, Viktor divided the network into two parts using the network segmentation approach. · In the first one (local, without direct Internet access), he isolated business-critical resources. · In the second (external, with Internet access), he placed public web servers to provide services to clients. Subnets communicate with each other through a gateway protected by a firewall. What is the name of the external subnet?
 
 Ans: `Demilitarized Zone`
@@ -477,7 +476,7 @@ Ans: `Chain letters`
 Boney, a professional hacker, targets an organization for financial benefits. He performs an attack by sending his session ID using an MITM attack technique.
 Boney first obtains a valid session ID by logging into a service and later feeds the same session ID to the target employee. The session ID links the target employee to Boney's account page without disclosing any information to the victim. When the target employee clicks on the link, all the sensitive payment details entered in a form are linked to Boney's account.
 What is the attack performed by Boney in the above scenario?
-Ans:  `Session fixation attack` 
+Ans:  `Session donation attack` 
 
 Samuel, a professional hacker, monitored and intercepted already established traffic between Bob and a host machine to predict Bob's ISN. Using this ISN, Samuel sent spoofed packets with Bob's IP address to the host machine. The host machine responded with a packet having an incremented ISN. Consequently, Bob's connection got hung, and Samuel was able to communicate with the host machine on behalf of Bob. 
 What is the type of attack performed by Samuel in the above scenario?
