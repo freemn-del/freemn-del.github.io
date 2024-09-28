@@ -3,6 +3,11 @@ Which of the following is most useful for quickly checking for SQL injection vul
 
 Ans: `single quotation`
 
+
+Which of the following best describes the operation of the ARP (Address Resolution Protocol)?
+
+Ans: `It sends a request packet to all the network elements, asking for the MAC address from a specific IP`
+
 To protect the enterprise infrastructure from the constant attacks of the evil hacker Ivan, Viktor divided the network into two parts using the network segmentation approach. · In the first one (local, without direct Internet access), he isolated business-critical resources. · In the second (external, with Internet access), he placed public web servers to provide services to clients. Subnets communicate with each other through a gateway protected by a firewall. What is the name of the external subnet?
 
 Ans: `Demilitarized Zone`
