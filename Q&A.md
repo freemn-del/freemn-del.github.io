@@ -1,3 +1,8 @@
+
+Which of the following is most useful for quickly checking for SQL injection vulnerability by sending a special character to web applications? 
+
+Ans: `single quotation`
+
 To protect the enterprise infrastructure from the constant attacks of the evil hacker Ivan, Viktor divided the network into two parts using the network segmentation approach. · In the first one (local, without direct Internet access), he isolated business-critical resources. · In the second (external, with Internet access), he placed public web servers to provide services to clients. Subnets communicate with each other through a gateway protected by a firewall. What is the name of the external subnet?
 
 Ans: `Demilitarized Zone`
@@ -771,9 +776,6 @@ response from the server. By observing the response, an attacker can extract sen
 information.
 What type of attack is this?
 Ans: `Blind SQL injection`
-
-Which of the following is most useful for quickly checking for SQL injection vulnerability by sending a special character to web applications? 
-Ans: `single quotation`
 
 What is the definition of a Metasploit module that is utilized to perform various isolated actions like port scanning, denial of service, SQL injection, and fuzzing?
 Ans: `Auxiliary module`
