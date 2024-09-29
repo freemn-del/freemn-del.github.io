@@ -3,6 +3,9 @@ Which of the following is most useful for quickly checking for SQL injection vul
 
 Ans: `single quotation`
 
+In which of the following attacks does the attacker receive information from data sources such as voice assistants, multimedia messages, and audio files by using a malicious app to breach speech privacy?
+
+Ans: `Spearphone attack`
 
 Which of the following best describes the operation of the ARP (Address Resolution Protocol)?
 
