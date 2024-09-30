@@ -1153,7 +1153,7 @@ What is the most efficient method for performing content enumeration on a web se
 Ans: `Performing content enumeration using a wordlist`
 
 Identify a security policy that defines using of a VPN for gaining access to an internal corporate network?
-Ans: `Remote access policy
+Ans: `Remote access policy`
 
 A security analyst is conducting an audit of the network to identify any violations of the established security policies. During the audit, they uncovered that an IT department employee had installed a dial-out modem. Which security policy should the security analyst consult to determine whether dial-out modems are permitted?
 Ans: `Remote-access policy`
