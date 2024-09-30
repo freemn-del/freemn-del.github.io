@@ -29,10 +29,6 @@ As a Certified Ethical Hacker, you were contracted by a private firm to conduct 
 
 Ans: `Rule of Engagement`
 
-A bank stores and processes sensitive privacy information related to home loans. However, auditing has never been enabled on the system. What is the first step that the bank should take before enabling the audit feature?
-
-Ans: `PKI`
-
 Let's assume that you decided to use PKI to protect the email you will send. At what layer of the OSI model will this message be encrypted and decrypted?  
 
 Ans: `Presentation layer`
