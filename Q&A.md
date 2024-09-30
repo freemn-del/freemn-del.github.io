@@ -1469,15 +1469,14 @@ by using various search engines, social networking sites, and web spidering tool
 process,  an automated tool to gather a list of words from the target website
 to further perform a brute-force attack on the previously gathered email addresses.
 What is the tool used  for gathering a list of words from the target website?
-Ans: `CeWL`
 
-What code-breaking method should Mark try next, considering his previous unsuccessful attempts at extracting cryptography keys using software methods?
-Ans: `Brute-Force`
+Ans: `CeWL`
 
 George, an employee of an organization, is attempting to access restricted websites from
 an official computer. For this purpose, he used an anonymizer that masked his real IP
 address and ensured complete and continuous anonymity for all his online activities.
 Which of the following anonymizers helps George hide his activities?
+
 Ans: `guardster.com`
 
 Alice needs to send a confidential document to her coworker, Bryan. Their company has public key infrastructure set up. Therefore, Alice both encrypts the message and digitally signs it. Alice uses _______________ to encrypt the message, and Bryan uses _______________ to confirm the digital signature.
