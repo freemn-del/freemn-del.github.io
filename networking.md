@@ -17,10 +17,6 @@
 ### **DNS (Domain Name System) 53**: 
     Translates domain names into IP addresses. 
     
-### **TFTP (Trivial File Transfer Protocol) 69:**
-
-	Used for simple file transfers between devices on a network.
-
 ### **HTTP (Hypertext Transfer Protocol) 80**: 
     Used for transferring web pages over the internet.
 
