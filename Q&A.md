@@ -1725,11 +1725,6 @@ By exploiting which SCADA vulnerability does an attacker take advantage of code 
 Ans: `Memory corruption`
 Exp: `This vulnerability involves issues related to how an application manages memory, including out-of-bounds reads/writes, and buffer overflows. These types of vulnerabilities can lead to unauthorized access, data corruption, or execution of arbitrary code. In SCADA systems, such memory corruption issues could be exploited to disrupt or take control of industrial processes.`
 
-Which result will be displayed when using the following Google search query?  
-`site:target.com - site:Marketing.target.com accounting`
-
-Ans: `Results matching "accounting" in domain target.com but not on the site Marketing.target.com`
-
 Which results will be returned with the following Google search query? 
 ``site:target.com `" site:Marketing.target.com accounting``
 
