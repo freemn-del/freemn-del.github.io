@@ -35,10 +35,10 @@
 ## SAST AND DAST
 #### SAST (Static Application Security Testing)
 
-It is a type of white box testing method meaning they require access to source code to function. It finds all security vulnerabilities including software flaws and weaknesses such as SQL injection and others by examining code before it is deployed. SAST does not require a running system to perform evaluations.
+It is a type of `white box` testing method meaning they require access to source code to function. It finds all security vulnerabilities including software flaws and weaknesses such as SQL injection and others by examining code before it is deployed. SAST does not require a running system to perform evaluations.
 #### DAST (Dynamic Application Security Testing) 
 
-It is a type of black-box testing method which means that tests are performed from outside a functioning application rather than viewing into internal source code or application architecture. It is running to find a broad range of vulnerabilities by examining application. DAST requires a running system to perform evaluations.
+It is a type of `black-box` testing method which means that tests are performed from outside a functioning application rather than viewing into internal source code or application architecture. It is running to find a broad range of vulnerabilities by examining application. DAST requires a running system to perform evaluations.
 
 ## **DNS Record Types and Their Functions**
 
