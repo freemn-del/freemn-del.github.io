@@ -657,23 +657,9 @@ A program that conceals its code and intended purpose via various techniques, an
 - These systems usually include auditing for events that occur on a specific host
 - These are not as common, due to the overhead they incur by having to monitor each system event
 
-### Types of DS Alerts
+### Types of Alerts
 
-**True Positive (Attack - Alert)**:
-   
-   - An `IDS raises` an alarm when a `legitimate attack` occurs
-
- **False Positive (No Attack - Alert)**:
-
-- An `IDS raises an alarm` when `no attack` has taken place
-
- **False Negative (No Attack - No Alert)**:
-
-- An `IDS does not raise` an alarm when a `legitimate attack` has taken place
-
- **True Negative (No Attack - No Alert)**:
- 
-- An `IDS does not raise` an alarm when an `attack` has an at taken place
+![6](assests/pp.jpg)
 
 ### IPS (Intrusion Prevention System)
 
