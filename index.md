@@ -659,7 +659,7 @@ A program that conceals its code and intended purpose via various techniques, an
 
 ### Types of Alerts
 
-![6](assests/pp.jpg)
+![009](assests/pp.jpg)
 
 ### IPS (Intrusion Prevention System)
 
