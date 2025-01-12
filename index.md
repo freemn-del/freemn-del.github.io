@@ -4,7 +4,7 @@
 
 [Questions &  Answers](Q&A.md)
 
-[ShortNote Networking](networking.md)
+[Basic Networking](networking.md)
 
 [MCQ Flashcards](https://quizlet.com/user/r007us3r/sets)
 
