@@ -47,6 +47,7 @@
     
 ### **HTTPS (Hypertext Transfer Protocol Secure) 443**: 
     Secure version of HTTP, used for secure communication over a computer network.
+    
 ### **SMB (Server Message Block) 445**: 
      Used for providing shared access to files, printers, and serial ports between nodes on a network.
 
