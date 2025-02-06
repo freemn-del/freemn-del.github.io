@@ -2,13 +2,8 @@
   <link rel="icon" href="assets/favicon.ico" type="image/ico">
 </head>
 
-[Questions &  Answers](Q&A.md)
-
 [Basic Networking](networking.md)
 
-[MCQ Flashcards](https://quizlet.com/user/r007us3r/sets)
-
-[Exam practice](https://passemall.com/free-ceh-v11-practice-test/full-test)
 
 # INTRODUCTION TO ETHICAL HACKING {01}
 
